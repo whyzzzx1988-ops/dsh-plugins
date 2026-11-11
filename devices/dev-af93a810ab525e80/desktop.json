@@ -1,0 +1,672 @@
+{
+  "device": {
+    "arch": "x64",
+    "dshVersion": "0.2.2-rc.1",
+    "id": "dev-af93a810ab525e80",
+    "name": "wanghuayu",
+    "platform": "win32",
+    "pluginVersion": "0.2.12"
+  },
+  "plugins": [
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "billion-context",
+      "enabled": true,
+      "id": "billion-context",
+      "installSpec": "billion-context@0.1.213",
+      "name": "billion-context",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:bili-native",
+          "moduleName": "billion-context",
+          "rowId": "bili-native"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:bili-compaction-gate",
+          "moduleName": "billion-context/dsh-compaction-gate",
+          "rowId": "bili-compaction-gate"
+        }
+      ],
+      "syncable": true,
+      "version": "0.1.213"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "cc-safety-net",
+      "enabled": true,
+      "id": "cc-safety-net",
+      "installSpec": "cc-safety-net@2.7.9",
+      "name": "cc-safety-net",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:cc-safety-net",
+          "moduleName": "cc-safety-net",
+          "rowId": "cc-safety-net"
+        }
+      ],
+      "syncable": true,
+      "version": "2.7.9"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "enabled": true,
+      "error": "no matching bundle metadata was found for this plugin entry",
+      "id": "cordis:include",
+      "installSpec": null,
+      "name": "cordis:include",
+      "origin": "unknown",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include",
+          "moduleName": "cordis:include"
+        }
+      ],
+      "syncable": false,
+      "version": null
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "DSH Architecture",
+      "enabled": true,
+      "id": "dsh-anatomy",
+      "installSpec": "dsh-anatomy@1.1.0",
+      "name": "dsh-anatomy",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-anatomy",
+          "moduleName": "dsh-anatomy",
+          "rowId": "dsh-anatomy"
+        }
+      ],
+      "syncable": true,
+      "version": "1.1.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "enabled": true,
+      "id": "dsh-anchored-standard",
+      "installSpec": "github:Jungod1121/dsh-anchored-standard#560530f0e1af6dba3528ac8962f5e5e63951b1bb",
+      "name": "dsh-anchored-standard",
+      "origin": "git",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:anchored-standard-installer",
+          "moduleName": "dsh-anchored-standard",
+          "rowId": "anchored-standard-installer"
+        }
+      ],
+      "source": "github:Jungod1121/dsh-anchored-standard#560530f0e1af6dba3528ac8962f5e5e63951b1bb",
+      "syncable": true,
+      "version": "1.2.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Better Sidebar",
+      "enabled": true,
+      "id": "dsh-better-sidebar",
+      "installSpec": "dsh-better-sidebar@0.30.1",
+      "name": "dsh-better-sidebar",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:better-sidebar",
+          "moduleName": "dsh-better-sidebar",
+          "rowId": "better-sidebar"
+        }
+      ],
+      "syncable": true,
+      "version": "0.30.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-connect-workbuddy",
+      "enabled": true,
+      "id": "dsh-connect-workbuddy",
+      "installSpec": "dsh-connect-workbuddy@5.21.3",
+      "name": "dsh-connect-workbuddy",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-workbuddy",
+          "moduleName": "dsh-connect-workbuddy",
+          "rowId": "dsh-connect-workbuddy"
+        }
+      ],
+      "syncable": true,
+      "version": "5.21.3"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-pet",
+      "enabled": true,
+      "id": "dsh-pet",
+      "installSpec": "dsh-pet@0.4.7",
+      "name": "dsh-pet",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-pet",
+          "moduleName": "dsh-pet",
+          "rowId": "dsh-pet"
+        }
+      ],
+      "syncable": true,
+      "version": "0.4.7"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-plugin",
+      "enabled": true,
+      "id": "dsh-plugin",
+      "installSpec": "dsh-plugin@2.3.6",
+      "name": "dsh-plugin",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-plugin",
+          "moduleName": "dsh-plugin",
+          "rowId": "dsh-plugin"
+        }
+      ],
+      "syncable": true,
+      "version": "2.3.6"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Plugin Scout",
+      "enabled": false,
+      "id": "dsh-plugin-scout",
+      "installSpec": "dsh-plugin-scout@0.1.11",
+      "name": "dsh-plugin-scout",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": false,
+          "moduleName": "dsh-plugin-scout",
+          "rowId": "dsh-plugin-scout"
+        }
+      ],
+      "syncable": true,
+      "version": "0.1.11"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-plugin-wallpaper-engine",
+      "enabled": true,
+      "id": "dsh-plugin-wallpaper-engine",
+      "installSpec": "dsh-plugin-wallpaper-engine@1.4.2",
+      "name": "dsh-plugin-wallpaper-engine",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine",
+          "moduleName": "dsh-plugin-wallpaper-engine",
+          "rowId": "wallpaper-engine"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-about-notice",
+          "moduleName": "dsh-plugin-wallpaper-engine-about-notice",
+          "rowId": "wallpaper-engine-about-notice"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-mascot-avatar",
+          "moduleName": "dsh-plugin-wallpaper-engine-mascot-avatar",
+          "rowId": "wallpaper-engine-mascot-avatar"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-media-bridge",
+          "moduleName": "dsh-plugin-wallpaper-engine-media-bridge",
+          "rowId": "wallpaper-engine-media-bridge"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-pet-link",
+          "moduleName": "dsh-plugin-wallpaper-engine-pet-link",
+          "rowId": "wallpaper-engine-pet-link"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-fx",
+          "moduleName": "dsh-plugin-wallpaper-engine-fx",
+          "rowId": "wallpaper-engine-fx"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-parallax",
+          "moduleName": "dsh-plugin-wallpaper-engine-parallax",
+          "rowId": "wallpaper-engine-parallax"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-fonts",
+          "moduleName": "dsh-plugin-wallpaper-engine-fonts",
+          "rowId": "wallpaper-engine-fonts"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-glass",
+          "moduleName": "dsh-plugin-wallpaper-engine-glass",
+          "rowId": "wallpaper-engine-glass"
+        }
+      ],
+      "syncable": true,
+      "version": "1.4.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Whale Companion",
+      "enabled": false,
+      "id": "dsh-plugin-whale-pet",
+      "installSpec": "dsh-plugin-whale-pet@0.2.9",
+      "name": "dsh-plugin-whale-pet",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": false,
+          "moduleName": "dsh-plugin-whale-pet",
+          "rowId": "whale-pet"
+        }
+      ],
+      "syncable": true,
+      "version": "0.2.9"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Plugin Backup",
+      "enabled": true,
+      "id": "dsh-plugins-git-sync",
+      "installSpec": "dsh-plugins-git-sync@0.2.12",
+      "name": "dsh-plugins-git-sync",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-plugins-git-sync",
+          "moduleName": "dsh-plugins-git-sync",
+          "rowId": "dsh-plugins-git-sync"
+        }
+      ],
+      "syncable": false,
+      "version": "0.2.12"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-pocket",
+      "enabled": true,
+      "id": "dsh-pocket",
+      "installSpec": "dsh-pocket@2.12.0",
+      "name": "dsh-pocket",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-pocket",
+          "moduleName": "dsh-pocket",
+          "rowId": "dsh-pocket"
+        }
+      ],
+      "syncable": true,
+      "version": "2.12.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Skill Center",
+      "enabled": true,
+      "id": "dsh-skill-center",
+      "installSpec": "dsh-skill-center@0.4.1",
+      "name": "dsh-skill-center",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:skill-center",
+          "moduleName": "dsh-skill-center",
+          "rowId": "skill-center"
+        }
+      ],
+      "syncable": true,
+      "version": "0.4.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-whale-widget",
+      "enabled": true,
+      "id": "dsh-whale-widget",
+      "installSpec": "dsh-whale-widget@0.4.2",
+      "name": "dsh-whale-widget",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-whale-widget",
+          "moduleName": "dsh-whale-widget",
+          "rowId": "dsh-whale-widget"
+        }
+      ],
+      "syncable": true,
+      "version": "0.4.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dshmarket",
+      "enabled": true,
+      "id": "dshmarket",
+      "installSpec": "dshmarket@1.73.17",
+      "name": "dshmarket",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-market",
+          "moduleName": "dshmarket",
+          "rowId": "dsh-market"
+        }
+      ],
+      "syncable": true,
+      "version": "1.73.17"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@99galaxy/dsh-plugin-market",
+      "enabled": true,
+      "id": "local:@99galaxy/dsh-plugin-market",
+      "installSpec": null,
+      "name": "@99galaxy/dsh-plugin-market",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-plugin-market",
+          "moduleName": "@99galaxy/dsh-plugin-market",
+          "rowId": "dsh-plugin-market"
+        }
+      ],
+      "source": "@99galaxy/dsh-plugin-market@1.2.2",
+      "syncable": false,
+      "version": "1.2.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Skill explorer",
+      "enabled": true,
+      "id": "local:@linxin666/dsh-client-ui-skill-explorer",
+      "installSpec": null,
+      "name": "@linxin666/dsh-client-ui-skill-explorer",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:ui-skill-explorer",
+          "moduleName": "@linxin666/dsh-client-ui-skill-explorer",
+          "rowId": "ui-skill-explorer"
+        }
+      ],
+      "source": "@linxin666/dsh-client-ui-skill-explorer@0.4.16",
+      "syncable": false,
+      "version": "0.4.16"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@local/dsh-code-review-preset",
+      "enabled": true,
+      "id": "local:@local/dsh-code-review-preset",
+      "installSpec": null,
+      "name": "@local/dsh-code-review-preset",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:preset-code-review",
+          "moduleName": "@deepseek-ai/dsh-agent-preset",
+          "rowId": "preset-code-review"
+        }
+      ],
+      "syncable": false,
+      "version": "1.0.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Quick notes",
+      "enabled": true,
+      "id": "local:@local/sidebar-notes",
+      "installSpec": null,
+      "name": "@local/sidebar-notes",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:sidebar-notes",
+          "moduleName": "@local/sidebar-notes",
+          "rowId": "sidebar-notes"
+        }
+      ],
+      "syncable": false,
+      "version": "1.0.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Skills Manager",
+      "enabled": true,
+      "id": "local:@michengai/dsh-skills-manager",
+      "installSpec": null,
+      "name": "@michengai/dsh-skills-manager",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:skills-manager",
+          "moduleName": "@michengai/dsh-skills-manager",
+          "rowId": "skills-manager"
+        }
+      ],
+      "source": "@michengai/dsh-skills-manager@1.4.1",
+      "syncable": false,
+      "version": "1.4.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@tt-a1i/archify-dsh",
+      "enabled": true,
+      "id": "local:@tt-a1i/archify-dsh",
+      "installSpec": null,
+      "name": "@tt-a1i/archify-dsh",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:archify-skill-filesystem",
+          "moduleName": "@deepseek-ai/dsh-skill-filesystem",
+          "rowId": "archify-skill-filesystem"
+        }
+      ],
+      "source": "@tt-a1i/archify-dsh@1.1.0",
+      "syncable": false,
+      "version": "1.1.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@vectorize-io/hindsight-coding-agents",
+      "enabled": true,
+      "id": "local:@vectorize-io/hindsight-coding-agents",
+      "installSpec": null,
+      "name": "@vectorize-io/hindsight-coding-agents",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:hindsight",
+          "moduleName": "@vectorize-io/hindsight-coding-agents/dsh",
+          "rowId": "hindsight"
+        }
+      ],
+      "source": "@vectorize-io/hindsight-coding-agents@0.8.7",
+      "syncable": false,
+      "version": "0.8.7"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "IM bots (dsh-im)",
+      "enabled": true,
+      "id": "local:@xmanrui/dsh-im",
+      "installSpec": null,
+      "name": "@xmanrui/dsh-im",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:xmanrui-dsh-im",
+          "moduleName": "@xmanrui/dsh-im",
+          "rowId": "xmanrui-dsh-im"
+        }
+      ],
+      "source": "@xmanrui/dsh-im@5.10.0",
+      "syncable": false,
+      "version": "5.10.0"
+    }
+  ],
+  "profile": "desktop",
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-11T03:57:59.269Z"
+}

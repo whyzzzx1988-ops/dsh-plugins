@@ -1,0 +1,18 @@
+{
+  "deviceId": "8afbc29c90e7141c4462137322c7c31e",
+  "platform": "Windows",
+  "currentUserId": "e24bb4be412446dd8d6fe437994656e1",
+  "agent_auth": {
+    "deepseek": {
+      "userId": "e24bb4be412446dd8d6fe437994656e1",
+      "login_time": 1789306150453
+    }
+  },
+  "e24bb4be412446dd8d6fe437994656e1": {
+    "accessToken": "~1kLM09rpUzptlzvGGTwPdH_X5gMFxs9k6M1lpr7k9UqzMy3aPvJZq5cB-zU7WkCurGTYvZYp0e8ZsTbqnpWsIetRrYhed5bFTXCZ-_CH8eEpC5cUWnEE9KOx1lZaepcc08bYQstlJHOOyVNs-pr-wS6u6l3sfpfMmsfy32gixvMvp2ka8yFXkDa8hIQ_Aw4QXb04wRhXZdvk0BSQF6CeorQfXOYAcUPaIe0BRGckSSUzYtNAkoSpn_hlEsOruvLDidGmc92aNnPht3pHncdGO7ulD-P7HbWq4TaD0xCCn3q1ny1PWqgjECXtrWiY-1BuKITlxTT8HcUm5zx57-nQaH7ySzZ2Ozf9kYeAZmJn15qXmp7gO7LWDeR3an3h8ESvDLWwtutf_A2nAbRajvjOyhsl0EmHK5q16icQ8hmRcMy0fBd1TucV4Dux7Nv_WT6PrRgMQoBMBu--VlfZufb7OclvwUB5_PttVDs6JWPBNnLXmCzU6k2XV",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsIlR5cGUiOiJKd3QiLCJ0eXAiOiJKV1QifQ.eyJvcGVuSWQiOiJlMjRiYjRiZTQxMjQ0NmRkOGQ2ZmU0Mzc5OTQ2NTZlMSIsImV4cCI6MTgwNDg1ODE1MSwidG9rZW4iOiJjNjkzMmY2NzVmMDc0YzMzODc5NzNhNWFhNzVmN2JiYyJ9.kKDAhDD628po8HYU0sEVST4UJrM3PW0VbzICRjs1w3k",
+    "clientToken": "",
+    "userId": "e24bb4be412446dd8d6fe437994656e1",
+    "update_time": 1789306150453
+  }
+}
