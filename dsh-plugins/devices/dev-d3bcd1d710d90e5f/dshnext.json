@@ -329,7 +329,7 @@
       "displayName": "dsh-console-hm",
       "enabled": true,
       "id": "dsh-console-hm",
-      "installSpec": "dsh-console-hm@0.5.95",
+      "installSpec": "dsh-console-hm@0.5.97",
       "name": "dsh-console-hm",
       "origin": "npm",
       "pathOnly": false,
@@ -344,7 +344,7 @@
         }
       ],
       "syncable": true,
-      "version": "0.5.95"
+      "version": "0.5.97"
     },
     {
       "builtIn": false,
@@ -1079,8 +1079,8 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "displayName": "Tech stack picker",
       "enabled": true,
+      "error": "operation-error: dsh: cannot resolve profile bundle \"@local/tech-stack-picker\" from the dsh installation or C:\\Users\\wangh\\.dsh-next\\profiles\\dshnext; run 'dsh plugin --profile dshnext install' if its dependency is not installed",
       "id": "local:@local/tech-stack-picker",
       "installSpec": null,
       "name": "@local/tech-stack-picker",
@@ -1088,45 +1088,10 @@
       "pathOnly": true,
       "platform": "win32",
       "profile": "dshnext",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:tech-stack-picker",
-          "moduleName": "@local/tech-stack-picker",
-          "rowId": "tech-stack-picker"
-        }
-      ],
+      "rows": [],
+      "source": "link:C:\\Users\\wangh\\.dsh\\plugins\\tech-stack-picker",
       "syncable": false,
-      "version": "1.0.0"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "Agency Agents",
-      "enabled": false,
-      "id": "local:@michengai/dsh-agency-agents",
-      "installSpec": null,
-      "name": "@michengai/dsh-agency-agents",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "dshnext",
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "@michengai/dsh-agency-agents/remote",
-          "rowId": "agency-agents-remote"
-        },
-        {
-          "enabled": false,
-          "moduleName": "@michengai/dsh-agency-agents",
-          "rowId": "agency-agents"
-        }
-      ],
-      "source": "@michengai/dsh-agency-agents@1.3.0",
-      "syncable": false,
-      "version": "1.3.0"
+      "version": null
     },
     {
       "builtIn": false,
@@ -1310,9 +1275,9 @@
           "rowId": "codex-ui"
         }
       ],
-      "source": "@michengai/dsh-codex-ui@2.4.0",
+      "source": "@michengai/dsh-codex-ui@2.4.2",
       "syncable": false,
-      "version": "2.4.0"
+      "version": "2.4.2"
     },
     {
       "builtIn": false,
@@ -1596,5 +1561,5 @@
   ],
   "profile": "dshnext",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T05:00:26.195Z"
+  "updatedAt": "2026-11-22T05:03:18.489Z"
 }

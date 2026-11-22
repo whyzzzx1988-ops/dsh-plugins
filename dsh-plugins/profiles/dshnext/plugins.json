@@ -250,7 +250,7 @@
       "displayName": "dsh-console-hm",
       "enabled": true,
       "id": "dsh-console-hm",
-      "installSpec": "dsh-console-hm@0.5.95",
+      "installSpec": "dsh-console-hm@0.5.97",
       "name": "dsh-console-hm",
       "origin": "npm",
       "pathOnly": false,
@@ -263,9 +263,9 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-22T04:30:42.709Z",
+      "updatedAt": "2026-11-22T05:03:18.488Z",
       "updatedBy": "dev-d3bcd1d710d90e5f",
-      "version": "0.5.95"
+      "version": "0.5.97"
     },
     "dsh-design-studio": {
       "builtIn": false,
@@ -773,5 +773,5 @@
   },
   "profile": "dshnext",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T05:00:26.196Z"
+  "updatedAt": "2026-11-22T05:03:18.489Z"
 }
