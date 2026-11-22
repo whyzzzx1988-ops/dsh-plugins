@@ -548,7 +548,7 @@
       "displayName": "dsh-plugin",
       "enabled": true,
       "id": "dsh-plugin",
-      "installSpec": "dsh-plugin@2.4.0",
+      "installSpec": "dsh-plugin@2.4.1",
       "name": "dsh-plugin",
       "origin": "npm",
       "pathOnly": false,
@@ -561,9 +561,9 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-22T04:30:42.709Z",
+      "updatedAt": "2026-11-22T05:21:21.603Z",
       "updatedBy": "dev-d3bcd1d710d90e5f",
-      "version": "2.4.0"
+      "version": "2.4.1"
     },
     "dsh-plugin-wallpaper-engine": {
       "builtIn": false,
@@ -773,5 +773,5 @@
   },
   "profile": "dshnext",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T05:03:18.489Z"
+  "updatedAt": "2026-11-22T05:21:21.603Z"
 }
