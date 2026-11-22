@@ -53,7 +53,7 @@
     "ds-harness-remote": {
       "builtIn": false,
       "displayName": "DS Harness Remote",
-      "enabled": true,
+      "enabled": false,
       "id": "ds-harness-remote",
       "installSpec": "ds-harness-remote@0.6.6",
       "name": "ds-harness-remote",
@@ -61,14 +61,13 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:ds-harness-remote",
+          "enabled": false,
           "moduleName": "ds-harness-remote",
           "rowId": "ds-harness-remote"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-22T04:30:42.709Z",
+      "updatedAt": "2026-11-22T04:40:46.002Z",
       "updatedBy": "dev-d3bcd1d710d90e5f",
       "version": "0.6.6"
     },
@@ -775,5 +774,5 @@
   },
   "profile": "dshnext",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T04:30:42.710Z"
+  "updatedAt": "2026-11-22T04:40:46.002Z"
 }
