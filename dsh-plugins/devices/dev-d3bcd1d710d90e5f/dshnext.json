@@ -1,0 +1,1604 @@
+{
+  "device": {
+    "arch": "x64",
+    "dshVersion": "2.0.24-next",
+    "id": "dev-d3bcd1d710d90e5f",
+    "name": "wanghuayu",
+    "platform": "win32",
+    "pluginVersion": "0.2.13"
+  },
+  "plugins": [
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "billion-context",
+      "enabled": true,
+      "id": "billion-context",
+      "installSpec": "billion-context@0.1.216",
+      "name": "billion-context",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:bili-native",
+          "moduleName": "billion-context",
+          "rowId": "bili-native"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:bili-compaction-gate",
+          "moduleName": "billion-context/dsh-compaction-gate",
+          "rowId": "bili-compaction-gate"
+        }
+      ],
+      "syncable": true,
+      "version": "0.1.216"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "cc-safety-net",
+      "enabled": true,
+      "id": "cc-safety-net",
+      "installSpec": "cc-safety-net@2.7.15",
+      "name": "cc-safety-net",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:cc-safety-net",
+          "moduleName": "cc-safety-net",
+          "rowId": "cc-safety-net"
+        }
+      ],
+      "syncable": true,
+      "version": "2.7.15"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "enabled": true,
+      "error": "no matching bundle metadata was found for this plugin entry",
+      "id": "cordis:include",
+      "installSpec": null,
+      "name": "cordis:include",
+      "origin": "unknown",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include",
+          "moduleName": "cordis:include"
+        }
+      ],
+      "syncable": false,
+      "version": null
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "DS Harness Remote",
+      "enabled": true,
+      "id": "ds-harness-remote",
+      "installSpec": "ds-harness-remote@0.6.6",
+      "name": "ds-harness-remote",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:ds-harness-remote",
+          "moduleName": "ds-harness-remote",
+          "rowId": "ds-harness-remote"
+        }
+      ],
+      "syncable": true,
+      "version": "0.6.6"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Antigravity Link",
+      "enabled": false,
+      "id": "dsh-agy-link",
+      "installSpec": "dsh-agy-link@0.6.33",
+      "name": "dsh-agy-link",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": false,
+          "moduleName": "dsh-agy-link",
+          "rowId": "agy-link"
+        }
+      ],
+      "syncable": true,
+      "version": "0.6.33"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "DSH Architecture",
+      "enabled": true,
+      "id": "dsh-anatomy",
+      "installSpec": "dsh-anatomy@1.1.0",
+      "name": "dsh-anatomy",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-anatomy",
+          "moduleName": "dsh-anatomy",
+          "rowId": "dsh-anatomy"
+        }
+      ],
+      "syncable": true,
+      "version": "1.1.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "enabled": true,
+      "id": "dsh-anchored-standard",
+      "installSpec": "github:Jungod1121/dsh-anchored-standard#560530f0e1af6dba3528ac8962f5e5e63951b1bb",
+      "name": "dsh-anchored-standard",
+      "origin": "git",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:anchored-standard-installer",
+          "moduleName": "dsh-anchored-standard",
+          "rowId": "anchored-standard-installer"
+        }
+      ],
+      "source": "github:Jungod1121/dsh-anchored-standard#560530f0e1af6dba3528ac8962f5e5e63951b1bb",
+      "syncable": true,
+      "version": "1.2.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Better Sidebar",
+      "enabled": true,
+      "id": "dsh-better-sidebar",
+      "installSpec": "dsh-better-sidebar@0.32.1",
+      "name": "dsh-better-sidebar",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:better-sidebar",
+          "moduleName": "dsh-better-sidebar",
+          "rowId": "better-sidebar"
+        }
+      ],
+      "syncable": true,
+      "version": "0.32.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-blender-plugin",
+      "enabled": true,
+      "id": "dsh-blender-plugin",
+      "installSpec": "dsh-blender-plugin@3.0.6",
+      "name": "dsh-blender-plugin",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-blender-plugin",
+          "moduleName": "dsh-blender-plugin",
+          "rowId": "dsh-blender-plugin"
+        }
+      ],
+      "syncable": true,
+      "version": "3.0.6"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-codex-effort-slider",
+      "enabled": true,
+      "id": "dsh-codex-effort-slider",
+      "installSpec": "dsh-codex-effort-slider@1.1.9",
+      "name": "dsh-codex-effort-slider",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:codex-effort-slider",
+          "moduleName": "dsh-codex-effort-slider",
+          "rowId": "codex-effort-slider"
+        }
+      ],
+      "syncable": true,
+      "version": "1.1.9"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-community-market",
+      "enabled": true,
+      "error": "no matching bundle metadata was found for this plugin entry",
+      "id": "dsh-community-market",
+      "installSpec": null,
+      "name": "dsh-community-market",
+      "origin": "unknown",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:community-market",
+          "moduleName": "dsh-community-market"
+        }
+      ],
+      "syncable": false,
+      "version": null
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-computer-use-win",
+      "enabled": true,
+      "id": "dsh-computer-use-win",
+      "installSpec": "dsh-computer-use-win@0.6.1",
+      "name": "dsh-computer-use-win",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:mcp-dsh-computer-use-win",
+          "moduleName": "dsh-computer-use-win",
+          "rowId": "mcp-dsh-computer-use-win"
+        }
+      ],
+      "syncable": true,
+      "version": "0.6.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-connect-workbuddy",
+      "enabled": true,
+      "id": "dsh-connect-workbuddy",
+      "installSpec": "dsh-connect-workbuddy@5.25.2",
+      "name": "dsh-connect-workbuddy",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-workbuddy",
+          "moduleName": "dsh-connect-workbuddy",
+          "rowId": "dsh-connect-workbuddy"
+        }
+      ],
+      "syncable": true,
+      "version": "5.25.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-console-hm",
+      "enabled": true,
+      "id": "dsh-console-hm",
+      "installSpec": "dsh-console-hm@0.5.95",
+      "name": "dsh-console-hm",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-console",
+          "moduleName": "dsh-console-hm",
+          "rowId": "dsh-console"
+        }
+      ],
+      "syncable": true,
+      "version": "0.5.95"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Design Studio",
+      "enabled": true,
+      "id": "dsh-design-studio",
+      "installSpec": "dsh-design-studio@0.26.0",
+      "name": "dsh-design-studio",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-design-studio",
+          "moduleName": "dsh-design-studio",
+          "rowId": "dsh-design-studio"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:dsh-design-studio-auto",
+          "moduleName": "dsh-design-studio/auto",
+          "rowId": "dsh-design-studio-auto"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:dsh-design-studio-offline",
+          "moduleName": "dsh-design-studio/offline",
+          "rowId": "dsh-design-studio-offline"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:dsh-design-studio-annotations",
+          "moduleName": "dsh-design-studio/annotations",
+          "rowId": "dsh-design-studio-annotations"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:dsh-design-studio-tool",
+          "moduleName": "dsh-design-studio/tool",
+          "rowId": "dsh-design-studio-tool"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:dsh-design-studio-skill",
+          "moduleName": "dsh-design-studio/skill",
+          "rowId": "dsh-design-studio-skill"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:preset-design",
+          "moduleName": "dsh-design-studio/preset",
+          "rowId": "preset-design"
+        }
+      ],
+      "syncable": true,
+      "version": "0.26.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-desktop-next",
+      "enabled": true,
+      "error": "no matching bundle metadata was found for this plugin entry",
+      "id": "dsh-desktop-next",
+      "installSpec": null,
+      "name": "dsh-desktop-next",
+      "origin": "unknown",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:desktop-next-capabilities",
+          "moduleName": "dsh-desktop-next"
+        }
+      ],
+      "syncable": false,
+      "version": null
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "enabled": true,
+      "error": "no matching bundle metadata was found for this plugin entry",
+      "id": "dsh-desktop-next/startup-entries",
+      "installSpec": null,
+      "name": "dsh-desktop-next/startup-entries",
+      "origin": "unknown",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:desktop-next-startup-entries",
+          "moduleName": "dsh-desktop-next/startup-entries"
+        }
+      ],
+      "syncable": false,
+      "version": null
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "enabled": true,
+      "error": "no matching bundle metadata was found for this plugin entry",
+      "id": "dsh-desktop-next/webserver",
+      "installSpec": null,
+      "name": "dsh-desktop-next/webserver",
+      "origin": "unknown",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:desktop-next-webserver",
+          "moduleName": "dsh-desktop-next/webserver"
+        }
+      ],
+      "syncable": false,
+      "version": null
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-ego-browser",
+      "enabled": true,
+      "id": "dsh-ego-browser",
+      "installSpec": "dsh-ego-browser@0.14.1",
+      "name": "dsh-ego-browser",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:ego-browser",
+          "moduleName": "dsh-ego-browser",
+          "rowId": "ego-browser"
+        }
+      ],
+      "syncable": true,
+      "version": "0.14.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "FFmpeg",
+      "enabled": true,
+      "id": "dsh-ffmpeg",
+      "installSpec": "dsh-ffmpeg@0.7.20",
+      "name": "dsh-ffmpeg",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:ffmpeg",
+          "moduleName": "dsh-ffmpeg",
+          "rowId": "ffmpeg"
+        }
+      ],
+      "syncable": true,
+      "version": "0.7.20"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-flash-presets",
+      "enabled": true,
+      "id": "dsh-flash-presets",
+      "installSpec": "dsh-flash-presets@0.3.2",
+      "name": "dsh-flash-presets",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:preset-flash-lean-ptc-v3",
+          "moduleName": "@deepseek-ai/dsh-agent-preset",
+          "rowId": "preset-flash-lean-ptc-v3"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:preset-flash-lean-ptc-v3-balance",
+          "moduleName": "@deepseek-ai/dsh-agent-preset",
+          "rowId": "preset-flash-lean-ptc-v3-balance"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:flash-presets-core",
+          "moduleName": "dsh-flash-presets/core",
+          "rowId": "flash-presets-core"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:plan-mode-ui",
+          "moduleName": "dsh-flash-presets",
+          "rowId": "plan-mode-ui"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:flash-presets-alias",
+          "moduleName": "dsh-flash-presets/alias",
+          "rowId": "flash-presets-alias"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:delivery-gate",
+          "moduleName": "dsh-flash-presets/delivery-gate",
+          "rowId": "delivery-gate"
+        }
+      ],
+      "syncable": true,
+      "version": "0.3.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-image-gen",
+      "enabled": true,
+      "id": "dsh-image-gen",
+      "installSpec": "dsh-image-gen@0.11.4",
+      "name": "dsh-image-gen",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:image-gen",
+          "moduleName": "dsh-image-gen",
+          "rowId": "image-gen"
+        }
+      ],
+      "syncable": true,
+      "version": "0.11.4"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-media-desk",
+      "enabled": true,
+      "id": "dsh-media-desk",
+      "installSpec": "dsh-media-desk@2.7.2",
+      "name": "dsh-media-desk",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:media-desk",
+          "moduleName": "dsh-media-desk",
+          "rowId": "media-desk"
+        }
+      ],
+      "syncable": true,
+      "version": "2.7.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-ops",
+      "enabled": true,
+      "id": "dsh-ops",
+      "installSpec": "dsh-ops@0.5.5",
+      "name": "dsh-ops",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-ops",
+          "moduleName": "dsh-ops",
+          "rowId": "dsh-ops"
+        }
+      ],
+      "syncable": true,
+      "version": "0.5.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-outsourcing-expert",
+      "enabled": true,
+      "id": "dsh-outsourcing-expert",
+      "installSpec": "dsh-outsourcing-expert@1.2.5",
+      "name": "dsh-outsourcing-expert",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:preset-outsourcing-expert",
+          "moduleName": "@deepseek-ai/dsh-agent-preset",
+          "rowId": "preset-outsourcing-expert"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:preset-outsourcing-expert-reverse",
+          "moduleName": "@deepseek-ai/dsh-agent-preset",
+          "rowId": "preset-outsourcing-expert-reverse"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:preset-outsourcing-expert-leader",
+          "moduleName": "@deepseek-ai/dsh-agent-preset",
+          "rowId": "preset-outsourcing-expert-leader"
+        }
+      ],
+      "syncable": true,
+      "version": "1.2.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-pet",
+      "enabled": true,
+      "id": "dsh-pet",
+      "installSpec": "dsh-pet@0.4.9",
+      "name": "dsh-pet",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-pet",
+          "moduleName": "dsh-pet",
+          "rowId": "dsh-pet"
+        }
+      ],
+      "syncable": true,
+      "version": "0.4.9"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-plugin",
+      "enabled": true,
+      "id": "dsh-plugin",
+      "installSpec": "dsh-plugin@2.4.0",
+      "name": "dsh-plugin",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-plugin",
+          "moduleName": "dsh-plugin",
+          "rowId": "dsh-plugin"
+        }
+      ],
+      "syncable": true,
+      "version": "2.4.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Wallpaper Engine",
+      "enabled": true,
+      "id": "dsh-plugin-wallpaper-engine",
+      "installSpec": "dsh-plugin-wallpaper-engine@1.4.3",
+      "name": "dsh-plugin-wallpaper-engine",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": false,
+          "entryId": "include:wallpaper-engine",
+          "moduleName": "dsh-plugin-wallpaper-engine",
+          "rowId": "wallpaper-engine"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:wallpaper-engine-about-notice",
+          "moduleName": "dsh-plugin-wallpaper-engine-about-notice",
+          "rowId": "wallpaper-engine-about-notice"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:wallpaper-engine-mascot-avatar",
+          "moduleName": "dsh-plugin-wallpaper-engine-mascot-avatar",
+          "rowId": "wallpaper-engine-mascot-avatar"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:wallpaper-engine-media-bridge",
+          "moduleName": "dsh-plugin-wallpaper-engine-media-bridge",
+          "rowId": "wallpaper-engine-media-bridge"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:wallpaper-engine-pet-link",
+          "moduleName": "dsh-plugin-wallpaper-engine-pet-link",
+          "rowId": "wallpaper-engine-pet-link"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:wallpaper-engine-fx",
+          "moduleName": "dsh-plugin-wallpaper-engine-fx",
+          "rowId": "wallpaper-engine-fx"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:wallpaper-engine-parallax",
+          "moduleName": "dsh-plugin-wallpaper-engine-parallax",
+          "rowId": "wallpaper-engine-parallax"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:wallpaper-engine-fonts",
+          "moduleName": "dsh-plugin-wallpaper-engine-fonts",
+          "rowId": "wallpaper-engine-fonts"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:wallpaper-engine-glass",
+          "moduleName": "dsh-plugin-wallpaper-engine-glass",
+          "rowId": "wallpaper-engine-glass"
+        }
+      ],
+      "syncable": true,
+      "version": "1.4.3"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Plugin Backup",
+      "enabled": true,
+      "id": "dsh-plugins-git-sync",
+      "installSpec": "dsh-plugins-git-sync@0.2.13",
+      "name": "dsh-plugins-git-sync",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-plugins-git-sync",
+          "moduleName": "dsh-plugins-git-sync",
+          "rowId": "dsh-plugins-git-sync"
+        }
+      ],
+      "syncable": false,
+      "version": "0.2.13"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-pocket",
+      "enabled": true,
+      "id": "dsh-pocket",
+      "installSpec": "dsh-pocket@2.13.1",
+      "name": "dsh-pocket",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-pocket",
+          "moduleName": "dsh-pocket",
+          "rowId": "dsh-pocket"
+        }
+      ],
+      "syncable": true,
+      "version": "2.13.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Liangsheng Mode",
+      "enabled": true,
+      "id": "dsh-preset-deep",
+      "installSpec": "dsh-preset-deep@0.1.5",
+      "name": "dsh-preset-deep",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:preset-deep",
+          "moduleName": "@deepseek-ai/dsh-agent-preset",
+          "rowId": "preset-deep"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:ls-icon",
+          "moduleName": "dsh-preset-deep",
+          "rowId": "ls-icon"
+        }
+      ],
+      "syncable": true,
+      "version": "0.1.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-remote-plugin",
+      "enabled": true,
+      "id": "dsh-remote-plugin",
+      "installSpec": "dsh-remote-plugin@0.8.8",
+      "name": "dsh-remote-plugin",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-remote-plugin",
+          "moduleName": "dsh-remote-plugin",
+          "rowId": "dsh-remote-plugin"
+        }
+      ],
+      "syncable": true,
+      "version": "0.8.8"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Mobile adaptation",
+      "enabled": false,
+      "id": "dsh-web-mobile",
+      "installSpec": "dsh-web-mobile@3.3.6",
+      "name": "dsh-web-mobile",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": false,
+          "moduleName": "dsh-web-mobile",
+          "rowId": "dsh-web-mobile"
+        }
+      ],
+      "syncable": true,
+      "version": "3.3.6"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-whale-widget",
+      "enabled": false,
+      "id": "dsh-whale-widget",
+      "installSpec": "dsh-whale-widget@0.4.2",
+      "name": "dsh-whale-widget",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": false,
+          "moduleName": "dsh-whale-widget",
+          "rowId": "dsh-whale-widget"
+        }
+      ],
+      "syncable": true,
+      "version": "0.4.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-xdpool",
+      "enabled": false,
+      "id": "dsh-xdpool",
+      "installSpec": "dsh-xdpool@2.7.5",
+      "name": "dsh-xdpool",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": false,
+          "moduleName": "dsh-xdpool",
+          "rowId": "llm-xdpool"
+        }
+      ],
+      "syncable": true,
+      "version": "2.7.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@99galaxy/dsh-plugin-market",
+      "enabled": true,
+      "id": "local:@99galaxy/dsh-plugin-market",
+      "installSpec": null,
+      "name": "@99galaxy/dsh-plugin-market",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-plugin-market",
+          "moduleName": "@99galaxy/dsh-plugin-market",
+          "rowId": "dsh-plugin-market"
+        }
+      ],
+      "source": "@99galaxy/dsh-plugin-market@1.2.2",
+      "syncable": false,
+      "version": "1.2.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Skill explorer",
+      "enabled": false,
+      "id": "local:@linxin666/dsh-client-ui-skill-explorer",
+      "installSpec": null,
+      "name": "@linxin666/dsh-client-ui-skill-explorer",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": false,
+          "moduleName": "@linxin666/dsh-client-ui-skill-explorer",
+          "rowId": "ui-skill-explorer"
+        }
+      ],
+      "source": "@linxin666/dsh-client-ui-skill-explorer@0.4.19",
+      "syncable": false,
+      "version": "0.4.19"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@liustack/modsearch",
+      "enabled": true,
+      "id": "local:@liustack/modsearch",
+      "installSpec": null,
+      "name": "@liustack/modsearch",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:modsearch",
+          "moduleName": "@liustack/modsearch",
+          "rowId": "modsearch"
+        }
+      ],
+      "source": "@liustack/modsearch@5.10.14",
+      "syncable": false,
+      "version": "5.10.14"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@local/dsh-code-review-preset",
+      "enabled": true,
+      "id": "local:@local/dsh-code-review-preset",
+      "installSpec": null,
+      "name": "@local/dsh-code-review-preset",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:preset-code-review",
+          "moduleName": "@deepseek-ai/dsh-agent-preset",
+          "rowId": "preset-code-review"
+        }
+      ],
+      "syncable": false,
+      "version": "1.0.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Tech stack picker",
+      "enabled": true,
+      "id": "local:@local/tech-stack-picker",
+      "installSpec": null,
+      "name": "@local/tech-stack-picker",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:tech-stack-picker",
+          "moduleName": "@local/tech-stack-picker",
+          "rowId": "tech-stack-picker"
+        }
+      ],
+      "syncable": false,
+      "version": "1.0.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Agency Agents",
+      "enabled": true,
+      "id": "local:@michengai/dsh-agency-agents",
+      "installSpec": null,
+      "name": "@michengai/dsh-agency-agents",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:agency-agents-remote",
+          "moduleName": "@michengai/dsh-agency-agents/remote",
+          "rowId": "agency-agents-remote"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:agency-agents",
+          "moduleName": "@michengai/dsh-agency-agents",
+          "rowId": "agency-agents"
+        }
+      ],
+      "source": "@michengai/dsh-agency-agents@1.3.0",
+      "syncable": false,
+      "version": "1.3.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Archive Manager",
+      "enabled": true,
+      "id": "local:@michengai/dsh-archive-manager",
+      "installSpec": null,
+      "name": "@michengai/dsh-archive-manager",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:ui-workspace-archive-manager",
+          "moduleName": "@michengai/dsh-archive-manager",
+          "rowId": "ui-workspace-archive-manager"
+        }
+      ],
+      "source": "@michengai/dsh-archive-manager@1.4.1",
+      "syncable": false,
+      "version": "1.4.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Automation",
+      "enabled": true,
+      "id": "local:@michengai/dsh-automation",
+      "installSpec": null,
+      "name": "@michengai/dsh-automation",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-automation",
+          "moduleName": "@michengai/dsh-automation",
+          "rowId": "dsh-automation"
+        }
+      ],
+      "source": "@michengai/dsh-automation@1.1.0",
+      "syncable": false,
+      "version": "1.1.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "BTW",
+      "enabled": true,
+      "id": "local:@michengai/dsh-btw",
+      "installSpec": null,
+      "name": "@michengai/dsh-btw",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:michengai-btw",
+          "moduleName": "@michengai/dsh-btw",
+          "rowId": "michengai-btw"
+        }
+      ],
+      "source": "@michengai/dsh-btw@1.4.2",
+      "syncable": false,
+      "version": "1.4.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Code Review",
+      "enabled": true,
+      "id": "local:@michengai/dsh-code-review",
+      "installSpec": null,
+      "name": "@michengai/dsh-code-review",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:michengai-code-review",
+          "moduleName": "@michengai/dsh-code-review",
+          "rowId": "michengai-code-review"
+        }
+      ],
+      "source": "@michengai/dsh-code-review@1.0.14",
+      "syncable": false,
+      "version": "1.0.14"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Codex Pet",
+      "enabled": true,
+      "id": "local:@michengai/dsh-codex-pet",
+      "installSpec": null,
+      "name": "@michengai/dsh-codex-pet",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:michengai-codex-pet",
+          "moduleName": "@michengai/dsh-codex-pet",
+          "rowId": "michengai-codex-pet"
+        }
+      ],
+      "source": "@michengai/dsh-codex-pet@1.1.1",
+      "syncable": false,
+      "version": "1.1.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Codex UI",
+      "enabled": true,
+      "id": "local:@michengai/dsh-codex-ui",
+      "installSpec": null,
+      "name": "@michengai/dsh-codex-ui",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:codex-ui-session-title",
+          "moduleName": "@michengai/dsh-codex-ui/session-title",
+          "rowId": "codex-ui-session-title"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:codex-ui-settings-skin",
+          "moduleName": "@michengai/dsh-codex-ui/settings-skin",
+          "rowId": "codex-ui-settings-skin"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:codex-ui-composer",
+          "moduleName": "@michengai/dsh-codex-ui/composer",
+          "rowId": "codex-ui-composer"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:codex-ui-sidebar",
+          "moduleName": "@michengai/dsh-codex-ui/sidebar",
+          "rowId": "codex-ui-sidebar"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:codex-ui-theme",
+          "moduleName": "@michengai/dsh-codex-ui/theme",
+          "rowId": "codex-ui-theme"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:codex-ui-desktop-menu",
+          "moduleName": "@michengai/dsh-codex-ui/desktop-menu",
+          "rowId": "codex-ui-desktop-menu"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:codex-ui",
+          "moduleName": "@michengai/dsh-codex-ui",
+          "rowId": "codex-ui"
+        }
+      ],
+      "source": "@michengai/dsh-codex-ui@2.4.0",
+      "syncable": false,
+      "version": "2.4.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "PUA settings",
+      "enabled": true,
+      "id": "local:@michengai/dsh-pua",
+      "installSpec": null,
+      "name": "@michengai/dsh-pua",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:michengai-pua-remote",
+          "moduleName": "@michengai/dsh-pua/remote",
+          "rowId": "michengai-pua-remote"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:michengai-pua",
+          "moduleName": "@michengai/dsh-pua",
+          "rowId": "michengai-pua"
+        }
+      ],
+      "source": "@michengai/dsh-pua@1.0.13",
+      "syncable": false,
+      "version": "1.0.13"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Simplify",
+      "enabled": true,
+      "id": "local:@michengai/dsh-simplify",
+      "installSpec": null,
+      "name": "@michengai/dsh-simplify",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:michengai-simplify",
+          "moduleName": "@michengai/dsh-simplify",
+          "rowId": "michengai-simplify"
+        }
+      ],
+      "source": "@michengai/dsh-simplify@1.0.11",
+      "syncable": false,
+      "version": "1.0.11"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Skills Manager",
+      "enabled": true,
+      "id": "local:@michengai/dsh-skills-manager",
+      "installSpec": null,
+      "name": "@michengai/dsh-skills-manager",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:skills-manager",
+          "moduleName": "@michengai/dsh-skills-manager",
+          "rowId": "skills-manager"
+        }
+      ],
+      "source": "@michengai/dsh-skills-manager@1.5.0",
+      "syncable": false,
+      "version": "1.5.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@nanmicoder/dsh-agent-teams",
+      "enabled": true,
+      "id": "local:@nanmicoder/dsh-agent-teams",
+      "installSpec": null,
+      "name": "@nanmicoder/dsh-agent-teams",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": false,
+          "entryId": "include:agent-teams",
+          "moduleName": "@nanmicoder/dsh-agent-teams",
+          "rowId": "agent-teams"
+        }
+      ],
+      "source": "@nanmicoder/dsh-agent-teams@0.1.30",
+      "syncable": false,
+      "version": "0.1.30"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@noob-stupid/dsh-plugin-console",
+      "enabled": false,
+      "id": "local:@noob-stupid/dsh-plugin-console",
+      "installSpec": null,
+      "name": "@noob-stupid/dsh-plugin-console",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": false,
+          "moduleName": "@noob-stupid/dsh-plugin-console",
+          "rowId": "plugin-console"
+        }
+      ],
+      "source": "@noob-stupid/dsh-plugin-console@0.5.113",
+      "syncable": false,
+      "version": "0.5.113"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@tt-a1i/archify-dsh",
+      "enabled": true,
+      "id": "local:@tt-a1i/archify-dsh",
+      "installSpec": null,
+      "name": "@tt-a1i/archify-dsh",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:archify-skill-filesystem",
+          "moduleName": "@deepseek-ai/dsh-skill-filesystem",
+          "rowId": "archify-skill-filesystem"
+        }
+      ],
+      "source": "@tt-a1i/archify-dsh@1.1.0",
+      "syncable": false,
+      "version": "1.1.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@vectorize-io/hindsight-coding-agents",
+      "enabled": true,
+      "id": "local:@vectorize-io/hindsight-coding-agents",
+      "installSpec": null,
+      "name": "@vectorize-io/hindsight-coding-agents",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:hindsight",
+          "moduleName": "@vectorize-io/hindsight-coding-agents/dsh",
+          "rowId": "hindsight"
+        }
+      ],
+      "source": "@vectorize-io/hindsight-coding-agents@0.8.8",
+      "syncable": false,
+      "version": "0.8.8"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "IM bots (dsh-im)",
+      "enabled": true,
+      "id": "local:@xmanrui/dsh-im",
+      "installSpec": null,
+      "name": "@xmanrui/dsh-im",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:xmanrui-dsh-im",
+          "moduleName": "@xmanrui/dsh-im",
+          "rowId": "xmanrui-dsh-im"
+        }
+      ],
+      "source": "@xmanrui/dsh-im@5.10.0",
+      "syncable": false,
+      "version": "5.10.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@yunmiao/studymate",
+      "enabled": true,
+      "id": "local:@yunmiao/studymate",
+      "installSpec": null,
+      "name": "@yunmiao/studymate",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:studymate",
+          "moduleName": "@yunmiao/studymate",
+          "rowId": "studymate"
+        }
+      ],
+      "source": "@yunmiao/studymate@2.0.4",
+      "syncable": false,
+      "version": "2.0.4"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Chinese Agent Presets",
+      "enabled": true,
+      "id": "local:@zhiqiangme/dsh-presets-zh",
+      "installSpec": null,
+      "name": "@zhiqiangme/dsh-presets-zh",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-presets-zh",
+          "moduleName": "@zhiqiangme/dsh-presets-zh",
+          "rowId": "dsh-presets-zh"
+        }
+      ],
+      "source": "@zhiqiangme/dsh-presets-zh@26.11.18",
+      "syncable": false,
+      "version": "26.11.18"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "feifei-persona",
+      "enabled": false,
+      "error": "no matching bundle metadata was found for this plugin entry",
+      "id": "local:feifei-persona",
+      "installSpec": null,
+      "name": "feifei-persona",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "dshnext",
+      "rows": [
+        {
+          "enabled": false,
+          "entryId": "include:feifei-persona",
+          "moduleName": "feifei-persona"
+        }
+      ],
+      "syncable": false,
+      "version": "1.0.0"
+    }
+  ],
+  "profile": "dshnext",
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-22T04:30:42.709Z"
+}
