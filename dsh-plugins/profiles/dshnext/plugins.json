@@ -31,7 +31,7 @@
     "cc-safety-net": {
       "builtIn": false,
       "displayName": "cc-safety-net",
-      "enabled": true,
+      "enabled": false,
       "id": "cc-safety-net",
       "installSpec": "cc-safety-net@2.7.15",
       "name": "cc-safety-net",
@@ -39,14 +39,13 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:cc-safety-net",
+          "enabled": false,
           "moduleName": "cc-safety-net",
           "rowId": "cc-safety-net"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-22T04:30:42.709Z",
+      "updatedAt": "2026-11-22T05:00:26.195Z",
       "updatedBy": "dev-d3bcd1d710d90e5f",
       "version": "2.7.15"
     },
@@ -774,5 +773,5 @@
   },
   "profile": "dshnext",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T04:40:46.002Z"
+  "updatedAt": "2026-11-22T05:00:26.196Z"
 }

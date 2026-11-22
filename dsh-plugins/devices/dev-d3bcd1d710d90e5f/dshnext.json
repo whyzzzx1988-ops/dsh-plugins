@@ -43,7 +43,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "cc-safety-net",
-      "enabled": true,
+      "enabled": false,
       "id": "cc-safety-net",
       "installSpec": "cc-safety-net@2.7.15",
       "name": "cc-safety-net",
@@ -53,8 +53,7 @@
       "profile": "dshnext",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:cc-safety-net",
+          "enabled": false,
           "moduleName": "cc-safety-net",
           "rowId": "cc-safety-net"
         }
@@ -1105,7 +1104,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Agency Agents",
-      "enabled": true,
+      "enabled": false,
       "id": "local:@michengai/dsh-agency-agents",
       "installSpec": null,
       "name": "@michengai/dsh-agency-agents",
@@ -1115,14 +1114,12 @@
       "profile": "dshnext",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:agency-agents-remote",
+          "enabled": false,
           "moduleName": "@michengai/dsh-agency-agents/remote",
           "rowId": "agency-agents-remote"
         },
         {
-          "enabled": true,
-          "entryId": "include:agency-agents",
+          "enabled": false,
           "moduleName": "@michengai/dsh-agency-agents",
           "rowId": "agency-agents"
         }
@@ -1599,5 +1596,5 @@
   ],
   "profile": "dshnext",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T04:40:46.002Z"
+  "updatedAt": "2026-11-22T05:00:26.195Z"
 }
