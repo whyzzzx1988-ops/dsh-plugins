@@ -90,7 +90,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "DS Harness Remote",
-      "enabled": false,
+      "enabled": true,
       "id": "ds-harness-remote",
       "installSpec": "ds-harness-remote@0.6.6",
       "name": "ds-harness-remote",
@@ -100,7 +100,8 @@
       "profile": "dshnext",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:ds-harness-remote",
           "moduleName": "ds-harness-remote",
           "rowId": "ds-harness-remote"
         }
@@ -1057,8 +1058,8 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "Tech stack picker",
       "enabled": true,
-      "error": "operation-error: dsh: cannot resolve profile bundle \"@local/tech-stack-picker\" from the dsh installation or C:\\Users\\wangh\\.dsh-next\\profiles\\dshnext; run 'dsh plugin --profile dshnext install' if its dependency is not installed",
       "id": "local:@local/tech-stack-picker",
       "installSpec": null,
       "name": "@local/tech-stack-picker",
@@ -1066,10 +1067,16 @@
       "pathOnly": true,
       "platform": "win32",
       "profile": "dshnext",
-      "rows": [],
-      "source": "link:C:\\Users\\wangh\\.dsh\\plugins\\tech-stack-picker",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:tech-stack-picker",
+          "moduleName": "@local/tech-stack-picker",
+          "rowId": "tech-stack-picker"
+        }
+      ],
       "syncable": false,
-      "version": null
+      "version": "1.0.0"
     },
     {
       "builtIn": false,
@@ -1571,5 +1578,5 @@
   ],
   "profile": "dshnext",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T05:40:31.284Z"
+  "updatedAt": "2026-11-24T02:01:03.926Z"
 }
