@@ -90,7 +90,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "DS Harness Remote",
-      "enabled": true,
+      "enabled": false,
       "id": "ds-harness-remote",
       "installSpec": "ds-harness-remote@0.6.6",
       "name": "ds-harness-remote",
@@ -100,8 +100,7 @@
       "profile": "dshnext",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:ds-harness-remote",
+          "enabled": false,
           "moduleName": "ds-harness-remote",
           "rowId": "ds-harness-remote"
         }
@@ -307,7 +306,7 @@
       "displayName": "dsh-console-hm",
       "enabled": true,
       "id": "dsh-console-hm",
-      "installSpec": "dsh-console-hm@0.5.97",
+      "installSpec": "dsh-console-hm@0.6.1",
       "name": "dsh-console-hm",
       "origin": "npm",
       "pathOnly": false,
@@ -322,7 +321,7 @@
         }
       ],
       "syncable": true,
-      "version": "0.5.97"
+      "version": "0.6.1"
     },
     {
       "builtIn": false,
@@ -1058,8 +1057,8 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "displayName": "Tech stack picker",
       "enabled": true,
+      "error": "operation-error: dsh: cannot resolve profile bundle \"@local/tech-stack-picker\" from the dsh installation or C:\\Users\\wangh\\.dsh-next\\profiles\\dshnext; run 'dsh plugin --profile dshnext install' if its dependency is not installed",
       "id": "local:@local/tech-stack-picker",
       "installSpec": null,
       "name": "@local/tech-stack-picker",
@@ -1067,16 +1066,10 @@
       "pathOnly": true,
       "platform": "win32",
       "profile": "dshnext",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:tech-stack-picker",
-          "moduleName": "@local/tech-stack-picker",
-          "rowId": "tech-stack-picker"
-        }
-      ],
+      "rows": [],
+      "source": "link:C:\\Users\\wangh\\.dsh\\plugins\\tech-stack-picker",
       "syncable": false,
-      "version": "1.0.0"
+      "version": null
     },
     {
       "builtIn": false,
@@ -1578,5 +1571,5 @@
   ],
   "profile": "dshnext",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T02:01:03.926Z"
+  "updatedAt": "2026-11-24T02:02:00.453Z"
 }
