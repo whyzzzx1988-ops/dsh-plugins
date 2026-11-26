@@ -1,672 +1,1498 @@
 {
+  "baseCommit": "9c744fbcb0593cdda3f04c642fea13de5ffe6892",
   "device": {
     "arch": "x64",
-    "dshVersion": "0.2.2-rc.1",
+    "dshVersion": "0.2.2-rc.5",
     "id": "dev-af93a810ab525e80",
     "name": "wanghuayu",
     "platform": "win32",
-    "pluginVersion": "0.2.12"
+    "pluginVersion": "0.2.13"
   },
-  "plugins": [
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "billion-context",
+  "plugins": {
+    "@99galaxy/dsh-plugin-market": {
+      "enabled": true,
+      "id": "@99galaxy/dsh-plugin-market",
+      "installSpec": "@99galaxy/dsh-plugin-market@1.2.2",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.2.2",
+      "versionPolicy": "track"
+    },
+    "@agents-anywhere/dsh-bridge-next": {
+      "enabled": false,
+      "id": "@agents-anywhere/dsh-bridge-next",
+      "installSpec": "@agents-anywhere/dsh-bridge-next@2.1.0",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "2.1.0",
+      "versionPolicy": "track"
+    },
+    "@linxin666/dsh-client-ui-skill-explorer": {
+      "enabled": false,
+      "id": "@linxin666/dsh-client-ui-skill-explorer",
+      "installSpec": "@linxin666/dsh-client-ui-skill-explorer@0.4.22",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.4.22",
+      "versionPolicy": "track"
+    },
+    "@linxin666/dsh-client-ui-task-board": {
+      "enabled": false,
+      "id": "@linxin666/dsh-client-ui-task-board",
+      "installSpec": "@linxin666/dsh-client-ui-task-board@0.4.22",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.4.22",
+      "versionPolicy": "track"
+    },
+    "@liustack/modsearch": {
+      "enabled": true,
+      "id": "@liustack/modsearch",
+      "installSpec": "@liustack/modsearch@5.10.17",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "5.10.17",
+      "versionPolicy": "track"
+    },
+    "@marsken/dsh-studio": {
+      "enabled": true,
+      "id": "@marsken/dsh-studio",
+      "installSpec": "@marsken/dsh-studio@0.12.2",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.12.2",
+      "versionPolicy": "track"
+    },
+    "@michengai/dsh-agency-agents": {
+      "enabled": true,
+      "id": "@michengai/dsh-agency-agents",
+      "installSpec": "@michengai/dsh-agency-agents@1.3.2",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.3.2",
+      "versionPolicy": "track"
+    },
+    "@michengai/dsh-archive-manager": {
+      "enabled": true,
+      "id": "@michengai/dsh-archive-manager",
+      "installSpec": "@michengai/dsh-archive-manager@1.5.0",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.5.0",
+      "versionPolicy": "track"
+    },
+    "@michengai/dsh-automation": {
+      "enabled": true,
+      "id": "@michengai/dsh-automation",
+      "installSpec": "@michengai/dsh-automation@1.1.3",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.1.3",
+      "versionPolicy": "track"
+    },
+    "@michengai/dsh-btw": {
+      "enabled": true,
+      "id": "@michengai/dsh-btw",
+      "installSpec": "@michengai/dsh-btw@1.4.3",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.4.3",
+      "versionPolicy": "track"
+    },
+    "@michengai/dsh-code-review": {
+      "enabled": true,
+      "id": "@michengai/dsh-code-review",
+      "installSpec": "@michengai/dsh-code-review@1.0.15",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.0.15",
+      "versionPolicy": "track"
+    },
+    "@michengai/dsh-codex-pet": {
+      "enabled": true,
+      "id": "@michengai/dsh-codex-pet",
+      "installSpec": "@michengai/dsh-codex-pet@1.1.2",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.1.2",
+      "versionPolicy": "track"
+    },
+    "@michengai/dsh-codex-ui": {
+      "enabled": true,
+      "id": "@michengai/dsh-codex-ui",
+      "installSpec": "@michengai/dsh-codex-ui@2.4.7",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "2.4.7",
+      "versionPolicy": "track"
+    },
+    "@michengai/dsh-pua": {
+      "enabled": true,
+      "id": "@michengai/dsh-pua",
+      "installSpec": "@michengai/dsh-pua@1.0.14",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.0.14",
+      "versionPolicy": "track"
+    },
+    "@michengai/dsh-simplify": {
+      "enabled": true,
+      "id": "@michengai/dsh-simplify",
+      "installSpec": "@michengai/dsh-simplify@1.0.13",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.0.13",
+      "versionPolicy": "track"
+    },
+    "@michengai/dsh-skills-manager": {
+      "enabled": true,
+      "id": "@michengai/dsh-skills-manager",
+      "installSpec": "@michengai/dsh-skills-manager@1.5.5",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.5.5",
+      "versionPolicy": "track"
+    },
+    "@morehao/dsh-github-trending": {
+      "enabled": true,
+      "id": "@morehao/dsh-github-trending",
+      "installSpec": "@morehao/dsh-github-trending@0.9.34",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.9.34",
+      "versionPolicy": "track"
+    },
+    "@nanmicoder/dsh-agent-teams": {
+      "enabled": true,
+      "id": "@nanmicoder/dsh-agent-teams",
+      "installSpec": "@nanmicoder/dsh-agent-teams@0.1.31",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.1.31",
+      "versionPolicy": "track"
+    },
+    "@noob-stupid/dsh-plugin-console": {
+      "enabled": true,
+      "id": "@noob-stupid/dsh-plugin-console",
+      "installSpec": "@noob-stupid/dsh-plugin-console@0.5.115",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.5.115",
+      "versionPolicy": "track"
+    },
+    "@vectorize-io/hindsight-coding-agents": {
+      "enabled": true,
+      "id": "@vectorize-io/hindsight-coding-agents",
+      "installSpec": "@vectorize-io/hindsight-coding-agents@0.8.8",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.8.8",
+      "versionPolicy": "track"
+    },
+    "@xmanrui/dsh-im": {
+      "enabled": false,
+      "id": "@xmanrui/dsh-im",
+      "installSpec": "@xmanrui/dsh-im@5.10.0",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "5.10.0",
+      "versionPolicy": "track"
+    },
+    "@yunmiao/studymate": {
+      "enabled": true,
+      "id": "@yunmiao/studymate",
+      "installSpec": "@yunmiao/studymate@2.0.4",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "2.0.4",
+      "versionPolicy": "track"
+    },
+    "@zhiqiangme/dsh-presets-zh": {
+      "enabled": true,
+      "id": "@zhiqiangme/dsh-presets-zh",
+      "installSpec": "@zhiqiangme/dsh-presets-zh@26.11.24",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "26.11.24",
+      "versionPolicy": "track"
+    },
+    "billion-context": {
       "enabled": true,
       "id": "billion-context",
-      "installSpec": "billion-context@0.1.213",
-      "name": "billion-context",
+      "installSpec": "billion-context@0.1.216",
       "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:bili-native",
-          "moduleName": "billion-context",
-          "rowId": "bili-native"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:bili-compaction-gate",
-          "moduleName": "billion-context/dsh-compaction-gate",
-          "rowId": "bili-compaction-gate"
-        }
-      ],
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "0.1.213"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.1.216",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "cc-safety-net",
+    "deepseek-harness-intelligent-ui": {
       "enabled": true,
-      "id": "cc-safety-net",
-      "installSpec": "cc-safety-net@2.7.9",
-      "name": "cc-safety-net",
+      "id": "deepseek-harness-intelligent-ui",
+      "installSpec": "deepseek-harness-intelligent-ui@0.2.17",
       "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:cc-safety-net",
-          "moduleName": "cc-safety-net",
-          "rowId": "cc-safety-net"
-        }
-      ],
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "2.7.9"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.2.17",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
+    "ds-harness-remote": {
       "enabled": true,
-      "error": "no matching bundle metadata was found for this plugin entry",
-      "id": "cordis:include",
-      "installSpec": null,
-      "name": "cordis:include",
-      "origin": "unknown",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include",
-          "moduleName": "cordis:include"
-        }
-      ],
-      "syncable": false,
-      "version": null
+      "id": "ds-harness-remote",
+      "installSpec": "ds-harness-remote@0.6.8",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.6.8",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "DSH Architecture",
+    "dsh-agy-link": {
+      "enabled": false,
+      "id": "dsh-agy-link",
+      "installSpec": "dsh-agy-link@0.6.87",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.6.87",
+      "versionPolicy": "track"
+    },
+    "dsh-anatomy": {
       "enabled": true,
       "id": "dsh-anatomy",
       "installSpec": "dsh-anatomy@1.1.0",
-      "name": "dsh-anatomy",
       "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-anatomy",
-          "moduleName": "dsh-anatomy",
-          "rowId": "dsh-anatomy"
-        }
-      ],
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "1.1.0"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.1.0",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
+    "dsh-anchored-standard": {
       "enabled": true,
       "id": "dsh-anchored-standard",
       "installSpec": "github:Jungod1121/dsh-anchored-standard#560530f0e1af6dba3528ac8962f5e5e63951b1bb",
-      "name": "dsh-anchored-standard",
       "origin": "git",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:anchored-standard-installer",
-          "moduleName": "dsh-anchored-standard",
-          "rowId": "anchored-standard-installer"
-        }
-      ],
-      "source": "github:Jungod1121/dsh-anchored-standard#560530f0e1af6dba3528ac8962f5e5e63951b1bb",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "1.2.1"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.2.1",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "Better Sidebar",
+    "dsh-better-sidebar": {
       "enabled": true,
       "id": "dsh-better-sidebar",
-      "installSpec": "dsh-better-sidebar@0.30.1",
-      "name": "dsh-better-sidebar",
+      "installSpec": "dsh-better-sidebar@0.33.0",
       "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:better-sidebar",
-          "moduleName": "dsh-better-sidebar",
-          "rowId": "better-sidebar"
-        }
-      ],
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "0.30.1"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.33.0",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "dsh-connect-workbuddy",
+    "dsh-bili-scroll": {
+      "enabled": true,
+      "id": "dsh-bili-scroll",
+      "installSpec": "dsh-bili-scroll@2.5.3",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "2.5.3",
+      "versionPolicy": "track"
+    },
+    "dsh-blender-plugin": {
+      "enabled": true,
+      "id": "dsh-blender-plugin",
+      "installSpec": "dsh-blender-plugin@3.0.6",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "3.0.6",
+      "versionPolicy": "track"
+    },
+    "dsh-claude-style": {
+      "enabled": true,
+      "id": "dsh-claude-style",
+      "installSpec": "dsh-claude-style@0.22.3",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.22.3",
+      "versionPolicy": "track"
+    },
+    "dsh-codex-effort-slider": {
+      "enabled": true,
+      "id": "dsh-codex-effort-slider",
+      "installSpec": "dsh-codex-effort-slider@1.1.9",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.1.9",
+      "versionPolicy": "track"
+    },
+    "dsh-codex-subscription": {
+      "enabled": false,
+      "id": "dsh-codex-subscription",
+      "installSpec": "dsh-codex-subscription@3.2.30",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "3.2.30",
+      "versionPolicy": "track"
+    },
+    "dsh-computer-use-win": {
+      "enabled": true,
+      "id": "dsh-computer-use-win",
+      "installSpec": "dsh-computer-use-win@0.6.4",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.6.4",
+      "versionPolicy": "track"
+    },
+    "dsh-connect-workbuddy": {
       "enabled": true,
       "id": "dsh-connect-workbuddy",
-      "installSpec": "dsh-connect-workbuddy@5.21.3",
-      "name": "dsh-connect-workbuddy",
+      "installSpec": "dsh-connect-workbuddy@5.31.8",
       "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-connect-workbuddy",
-          "moduleName": "dsh-connect-workbuddy",
-          "rowId": "dsh-connect-workbuddy"
-        }
-      ],
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "5.21.3"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "5.31.8",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "dsh-pet",
+    "dsh-console-hm": {
       "enabled": true,
-      "id": "dsh-pet",
-      "installSpec": "dsh-pet@0.4.7",
-      "name": "dsh-pet",
+      "id": "dsh-console-hm",
+      "installSpec": "dsh-console-hm@0.6.3",
       "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-pet",
-          "moduleName": "dsh-pet",
-          "rowId": "dsh-pet"
-        }
-      ],
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "0.4.7"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.6.3",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "dsh-plugin",
+    "dsh-design-studio": {
+      "enabled": true,
+      "id": "dsh-design-studio",
+      "installSpec": "dsh-design-studio@1.3.0",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.3.0",
+      "versionPolicy": "track"
+    },
+    "dsh-douyin-browser-local": {
+      "enabled": true,
+      "id": "dsh-douyin-browser-local",
+      "installSpec": "dsh-douyin-browser-local@1.4.7",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.4.7",
+      "versionPolicy": "track"
+    },
+    "dsh-ego-browser": {
+      "enabled": true,
+      "id": "dsh-ego-browser",
+      "installSpec": "dsh-ego-browser@0.14.1",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.14.1",
+      "versionPolicy": "track"
+    },
+    "dsh-ffmpeg": {
+      "enabled": true,
+      "id": "dsh-ffmpeg",
+      "installSpec": "dsh-ffmpeg@0.7.21",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.7.21",
+      "versionPolicy": "track"
+    },
+    "dsh-flash-presets": {
+      "enabled": true,
+      "id": "dsh-flash-presets",
+      "installSpec": "dsh-flash-presets@0.3.2",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.3.2",
+      "versionPolicy": "track"
+    },
+    "dsh-free-search": {
+      "enabled": true,
+      "id": "dsh-free-search",
+      "installSpec": "dsh-free-search@0.9.88",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.9.88",
+      "versionPolicy": "track"
+    },
+    "dsh-image-gen": {
+      "enabled": true,
+      "id": "dsh-image-gen",
+      "installSpec": "dsh-image-gen@0.12.3",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.12.3",
+      "versionPolicy": "track"
+    },
+    "dsh-kbar": {
+      "enabled": true,
+      "id": "dsh-kbar",
+      "installSpec": "dsh-kbar@0.7.1",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.7.1",
+      "versionPolicy": "track"
+    },
+    "dsh-mcp-manager-plus": {
+      "enabled": true,
+      "id": "dsh-mcp-manager-plus",
+      "installSpec": "dsh-mcp-manager-plus@0.5.2",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.5.2",
+      "versionPolicy": "track"
+    },
+    "dsh-media-desk": {
+      "enabled": true,
+      "id": "dsh-media-desk",
+      "installSpec": "dsh-media-desk@2.7.2",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "2.7.2",
+      "versionPolicy": "track"
+    },
+    "dsh-mnemon": {
+      "enabled": true,
+      "id": "dsh-mnemon",
+      "installSpec": "dsh-mnemon@0.5.55",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.5.55",
+      "versionPolicy": "track"
+    },
+    "dsh-mobile-plugin": {
+      "enabled": true,
+      "id": "dsh-mobile-plugin",
+      "installSpec": "dsh-mobile-plugin@0.5.120",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.5.120",
+      "versionPolicy": "track"
+    },
+    "dsh-nextsteps": {
+      "enabled": true,
+      "id": "dsh-nextsteps",
+      "installSpec": "dsh-nextsteps@1.12.0",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.12.0",
+      "versionPolicy": "track"
+    },
+    "dsh-ops": {
+      "enabled": true,
+      "id": "dsh-ops",
+      "installSpec": "dsh-ops@0.5.5",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.5.5",
+      "versionPolicy": "track"
+    },
+    "dsh-outsourcing-expert": {
+      "enabled": true,
+      "id": "dsh-outsourcing-expert",
+      "installSpec": "dsh-outsourcing-expert@1.2.5",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.2.5",
+      "versionPolicy": "track"
+    },
+    "dsh-perm-gate": {
+      "enabled": false,
+      "id": "dsh-perm-gate",
+      "installSpec": "dsh-perm-gate@5.7.0",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "5.7.0",
+      "versionPolicy": "track"
+    },
+    "dsh-pet": {
+      "enabled": false,
+      "id": "dsh-pet",
+      "installSpec": "dsh-pet@0.4.9",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.4.9",
+      "versionPolicy": "track"
+    },
+    "dsh-plugin": {
       "enabled": true,
       "id": "dsh-plugin",
-      "installSpec": "dsh-plugin@2.3.6",
-      "name": "dsh-plugin",
+      "installSpec": "dsh-plugin@2.4.4",
       "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-plugin",
-          "moduleName": "dsh-plugin",
-          "rowId": "dsh-plugin"
-        }
-      ],
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "2.3.6"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "2.4.4",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "Plugin Scout",
-      "enabled": false,
-      "id": "dsh-plugin-scout",
-      "installSpec": "dsh-plugin-scout@0.1.11",
-      "name": "dsh-plugin-scout",
-      "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-scout",
-          "rowId": "dsh-plugin-scout"
-        }
-      ],
-      "syncable": true,
-      "version": "0.1.11"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "dsh-plugin-wallpaper-engine",
+    "dsh-plugin-health": {
       "enabled": true,
+      "id": "dsh-plugin-health",
+      "installSpec": "dsh-plugin-health@3.3.0",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "3.3.0",
+      "versionPolicy": "track"
+    },
+    "dsh-plugin-wallpaper-engine": {
+      "enabled": false,
       "id": "dsh-plugin-wallpaper-engine",
-      "installSpec": "dsh-plugin-wallpaper-engine@1.4.2",
-      "name": "dsh-plugin-wallpaper-engine",
+      "installSpec": "dsh-plugin-wallpaper-engine@1.4.3",
       "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:wallpaper-engine",
-          "moduleName": "dsh-plugin-wallpaper-engine",
-          "rowId": "wallpaper-engine"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:wallpaper-engine-about-notice",
-          "moduleName": "dsh-plugin-wallpaper-engine-about-notice",
-          "rowId": "wallpaper-engine-about-notice"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:wallpaper-engine-mascot-avatar",
-          "moduleName": "dsh-plugin-wallpaper-engine-mascot-avatar",
-          "rowId": "wallpaper-engine-mascot-avatar"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:wallpaper-engine-media-bridge",
-          "moduleName": "dsh-plugin-wallpaper-engine-media-bridge",
-          "rowId": "wallpaper-engine-media-bridge"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:wallpaper-engine-pet-link",
-          "moduleName": "dsh-plugin-wallpaper-engine-pet-link",
-          "rowId": "wallpaper-engine-pet-link"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:wallpaper-engine-fx",
-          "moduleName": "dsh-plugin-wallpaper-engine-fx",
-          "rowId": "wallpaper-engine-fx"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:wallpaper-engine-parallax",
-          "moduleName": "dsh-plugin-wallpaper-engine-parallax",
-          "rowId": "wallpaper-engine-parallax"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:wallpaper-engine-fonts",
-          "moduleName": "dsh-plugin-wallpaper-engine-fonts",
-          "rowId": "wallpaper-engine-fonts"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:wallpaper-engine-glass",
-          "moduleName": "dsh-plugin-wallpaper-engine-glass",
-          "rowId": "wallpaper-engine-glass"
-        }
-      ],
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "1.4.2"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.4.3",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "Whale Companion",
-      "enabled": false,
-      "id": "dsh-plugin-whale-pet",
-      "installSpec": "dsh-plugin-whale-pet@0.2.9",
-      "name": "dsh-plugin-whale-pet",
-      "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-whale-pet",
-          "rowId": "whale-pet"
-        }
-      ],
-      "syncable": true,
-      "version": "0.2.9"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "Plugin Backup",
-      "enabled": true,
-      "id": "dsh-plugins-git-sync",
-      "installSpec": "dsh-plugins-git-sync@0.2.12",
-      "name": "dsh-plugins-git-sync",
-      "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-plugins-git-sync",
-          "moduleName": "dsh-plugins-git-sync",
-          "rowId": "dsh-plugins-git-sync"
-        }
-      ],
-      "syncable": false,
-      "version": "0.2.12"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "dsh-pocket",
+    "dsh-pocket": {
       "enabled": true,
       "id": "dsh-pocket",
-      "installSpec": "dsh-pocket@2.12.0",
-      "name": "dsh-pocket",
+      "installSpec": "dsh-pocket@2.13.2",
       "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-pocket",
-          "moduleName": "dsh-pocket",
-          "rowId": "dsh-pocket"
-        }
-      ],
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "2.12.0"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "2.13.2",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "Skill Center",
+    "dsh-power-xc": {
       "enabled": true,
-      "id": "dsh-skill-center",
-      "installSpec": "dsh-skill-center@0.4.1",
-      "name": "dsh-skill-center",
+      "id": "dsh-power-xc",
+      "installSpec": "dsh-power-xc@0.1.10",
       "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:skill-center",
-          "moduleName": "dsh-skill-center",
-          "rowId": "skill-center"
-        }
-      ],
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "0.4.1"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.1.10",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "dsh-whale-widget",
+    "dsh-ppt": {
       "enabled": true,
-      "id": "dsh-whale-widget",
-      "installSpec": "dsh-whale-widget@0.4.2",
-      "name": "dsh-whale-widget",
+      "id": "dsh-ppt",
+      "installSpec": "dsh-ppt@1.0.4",
       "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-whale-widget",
-          "moduleName": "dsh-whale-widget",
-          "rowId": "dsh-whale-widget"
-        }
-      ],
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "0.4.2"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.0.4",
+      "versionPolicy": "track"
     },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "dshmarket",
+    "dsh-preset-deep": {
+      "enabled": true,
+      "id": "dsh-preset-deep",
+      "installSpec": "dsh-preset-deep@0.1.5",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.1.5",
+      "versionPolicy": "track"
+    },
+    "dsh-remote-plugin": {
+      "enabled": true,
+      "id": "dsh-remote-plugin",
+      "installSpec": "dsh-remote-plugin@0.9.0",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.9.0",
+      "versionPolicy": "track"
+    },
+    "dsh-remotion": {
+      "enabled": true,
+      "id": "dsh-remotion",
+      "installSpec": "dsh-remotion@0.13.4",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.13.4",
+      "versionPolicy": "track"
+    },
+    "dsh-rewind-plugin": {
+      "enabled": true,
+      "id": "dsh-rewind-plugin",
+      "installSpec": "dsh-rewind-plugin@0.24.1",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.24.1",
+      "versionPolicy": "track"
+    },
+    "dsh-sidebar-more": {
+      "enabled": true,
+      "id": "dsh-sidebar-more",
+      "installSpec": "dsh-sidebar-more@0.2.2",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.2.2",
+      "versionPolicy": "track"
+    },
+    "dsh-soul-md": {
+      "enabled": true,
+      "id": "dsh-soul-md",
+      "installSpec": "dsh-soul-md@0.12.5",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.12.5",
+      "versionPolicy": "track"
+    },
+    "dsh-univer-office": {
+      "enabled": true,
+      "id": "dsh-univer-office",
+      "installSpec": "dsh-univer-office@0.6.1",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.6.1",
+      "versionPolicy": "track"
+    },
+    "dsh-unlag": {
+      "enabled": true,
+      "id": "dsh-unlag",
+      "installSpec": "dsh-unlag@1.17.11",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.17.11",
+      "versionPolicy": "track"
+    },
+    "dsh-vision-router": {
+      "enabled": true,
+      "id": "dsh-vision-router",
+      "installSpec": "dsh-vision-router@3.4.0",
+      "origin": "npm",
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
+      "syncable": true,
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "3.4.0",
+      "versionPolicy": "track"
+    },
+    "dshmarket": {
       "enabled": true,
       "id": "dshmarket",
-      "installSpec": "dshmarket@1.73.17",
-      "name": "dshmarket",
+      "installSpec": "dshmarket@1.84.1",
       "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-market",
-          "moduleName": "dshmarket",
-          "rowId": "dsh-market"
-        }
-      ],
+      "pinnedVersion": null,
+      "scope": {
+        "mode": "all"
+      },
       "syncable": true,
-      "version": "1.73.17"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "@99galaxy/dsh-plugin-market",
-      "enabled": true,
-      "id": "local:@99galaxy/dsh-plugin-market",
-      "installSpec": null,
-      "name": "@99galaxy/dsh-plugin-market",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-plugin-market",
-          "moduleName": "@99galaxy/dsh-plugin-market",
-          "rowId": "dsh-plugin-market"
-        }
-      ],
-      "source": "@99galaxy/dsh-plugin-market@1.2.2",
-      "syncable": false,
-      "version": "1.2.2"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "Skill explorer",
-      "enabled": true,
-      "id": "local:@linxin666/dsh-client-ui-skill-explorer",
-      "installSpec": null,
-      "name": "@linxin666/dsh-client-ui-skill-explorer",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:ui-skill-explorer",
-          "moduleName": "@linxin666/dsh-client-ui-skill-explorer",
-          "rowId": "ui-skill-explorer"
-        }
-      ],
-      "source": "@linxin666/dsh-client-ui-skill-explorer@0.4.16",
-      "syncable": false,
-      "version": "0.4.16"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "@local/dsh-code-review-preset",
-      "enabled": true,
-      "id": "local:@local/dsh-code-review-preset",
-      "installSpec": null,
-      "name": "@local/dsh-code-review-preset",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:preset-code-review",
-          "moduleName": "@deepseek-ai/dsh-agent-preset",
-          "rowId": "preset-code-review"
-        }
-      ],
-      "syncable": false,
-      "version": "1.0.0"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "Quick notes",
-      "enabled": true,
-      "id": "local:@local/sidebar-notes",
-      "installSpec": null,
-      "name": "@local/sidebar-notes",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:sidebar-notes",
-          "moduleName": "@local/sidebar-notes",
-          "rowId": "sidebar-notes"
-        }
-      ],
-      "syncable": false,
-      "version": "1.0.0"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "Skills Manager",
-      "enabled": true,
-      "id": "local:@michengai/dsh-skills-manager",
-      "installSpec": null,
-      "name": "@michengai/dsh-skills-manager",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:skills-manager",
-          "moduleName": "@michengai/dsh-skills-manager",
-          "rowId": "skills-manager"
-        }
-      ],
-      "source": "@michengai/dsh-skills-manager@1.4.1",
-      "syncable": false,
-      "version": "1.4.1"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "@tt-a1i/archify-dsh",
-      "enabled": true,
-      "id": "local:@tt-a1i/archify-dsh",
-      "installSpec": null,
-      "name": "@tt-a1i/archify-dsh",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:archify-skill-filesystem",
-          "moduleName": "@deepseek-ai/dsh-skill-filesystem",
-          "rowId": "archify-skill-filesystem"
-        }
-      ],
-      "source": "@tt-a1i/archify-dsh@1.1.0",
-      "syncable": false,
-      "version": "1.1.0"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "@vectorize-io/hindsight-coding-agents",
-      "enabled": true,
-      "id": "local:@vectorize-io/hindsight-coding-agents",
-      "installSpec": null,
-      "name": "@vectorize-io/hindsight-coding-agents",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:hindsight",
-          "moduleName": "@vectorize-io/hindsight-coding-agents/dsh",
-          "rowId": "hindsight"
-        }
-      ],
-      "source": "@vectorize-io/hindsight-coding-agents@0.8.7",
-      "syncable": false,
-      "version": "0.8.7"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "IM bots (dsh-im)",
-      "enabled": true,
-      "id": "local:@xmanrui/dsh-im",
-      "installSpec": null,
-      "name": "@xmanrui/dsh-im",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:xmanrui-dsh-im",
-          "moduleName": "@xmanrui/dsh-im",
-          "rowId": "xmanrui-dsh-im"
-        }
-      ],
-      "source": "@xmanrui/dsh-im@5.10.0",
-      "syncable": false,
-      "version": "5.10.0"
+      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "1.84.1",
+      "versionPolicy": "track"
     }
-  ],
+  },
   "profile": "desktop",
-  "schemaVersion": 1,
-  "updatedAt": "2026-11-11T03:57:59.269Z"
+  "removed": [],
+  "schemaVersion": 2,
+  "skills": {
+    "agent-browser": {
+      "files": 1,
+      "hash": "a7015a9b59e4e35a573ed94f9fea752e6986b6bbd12289376f60e42b61b1bcb9",
+      "name": "agent-browser",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "bailian-cli": {
+      "files": 29,
+      "hash": "0f1016d9ab6ae7a6038960d421ac4f6966ff67b05a7274c9d2308a42c8fa83cc",
+      "name": "bailian-cli",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "bailian-docs-llm-wiki": {
+      "files": 847,
+      "hash": "12a4374115630639fb5433f0816d858a4c3e78f23c425074cdead9bc76fb2237",
+      "name": "bailian-docs-llm-wiki",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "bailian-finetune": {
+      "files": 5,
+      "hash": "1dc9698e874c6f242176f62d7e9da8751da4b935c8eec292451efbbdd027019a",
+      "name": "bailian-finetune",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "bailian-gen": {
+      "files": 8,
+      "hash": "476de6f4557bf0d2cdbaf25bf7c5bcb8441029d1d2dddc59022c9d73224cc5ec",
+      "name": "bailian-gen",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "bailian-managed-agent": {
+      "files": 3,
+      "hash": "fffa208366af5e0723ba5b4daf2c6b3cb45610fb333ca06f75788f79f3c90093",
+      "name": "bailian-managed-agent",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "bailian-model-recommend": {
+      "files": 7,
+      "hash": "c7d7722f34daab99275eeafb56cfa75997b05deb2f4c45ebb83f91abb1dbfc82",
+      "name": "bailian-model-recommend",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "bailian-protocol": {
+      "files": 6,
+      "hash": "afc12a9b60a0c67ef157f99d3290e0887c7f19a260a904a33063dfeb851fba94",
+      "name": "bailian-protocol",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "bailian-sandbox": {
+      "files": 4,
+      "hash": "918ffd38d210dd39aef99ed93fe02c31be09b1dd9100fbc3bcabe8356728f8f7",
+      "name": "bailian-sandbox",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "bailian-train-deploy": {
+      "files": 11,
+      "hash": "80923159862329bb608d47591a47290f54bb43c59c8726e968325b15cc4f7c45",
+      "name": "bailian-train-deploy",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "bailian-web-search": {
+      "files": 1,
+      "hash": "b94e2433b5074b20db3be85413f6786544e0e25fa96b6a7a82f0b5d30c507a4e",
+      "name": "bailian-web-search",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "coaligne-workflow": {
+      "files": 1,
+      "hash": "f2adb91d14f96ee1fc86e3c34fb693b7b74871370bd3e331d8f0fca000bd7227",
+      "name": "coaligne-workflow",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "dsh-remote-events-non101": {
+      "files": 1,
+      "hash": "dda21eb634aadcde6bbe3808b66d2ddadb68afc80e71c6abacb9cc306f46546d",
+      "name": "dsh-remote-events-non101",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "dx-ai-video-autopilot": {
+      "files": 1,
+      "hash": "3ee8ffd8ee73c19d84d918735dc419ce15c4ff3872643dc9d13b9b6ed9ce128f",
+      "name": "dx-ai-video-autopilot",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "huatai-ruoyi-jar-build": {
+      "files": 1,
+      "hash": "9c72e7f9017ea57f47232376c6158d49c5a9db5e52af25f165431563234ed565",
+      "name": "huatai-ruoyi-jar-build",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-adult": {
+      "files": 1,
+      "hash": "98f4f91293aa3f0c4634f3633164c4e44ba561f58e0d133db24ceb15f2e6e1dc",
+      "name": "m-adult",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-ai": {
+      "files": 1,
+      "hash": "66c47b4fd6ee22283dec08c95388458c8a23fe0037fc794a9bbbc163d12e45cb",
+      "name": "m-ai",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-c2": {
+      "files": 1,
+      "hash": "aa45a3b92a26a6ff43c95e6b84da9c0fdd7e0cafb4f59b2a995decf4974893b3",
+      "name": "m-c2",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-collect": {
+      "files": 1,
+      "hash": "f2c3f815a9cd2e6d4be33001f2e878dcfdb0e0d4970a302bc17fdb2d30504321",
+      "name": "m-collect",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-crack": {
+      "files": 1,
+      "hash": "a841766a9529ae6fb91b69a1b6a2c3e047fd8cb464cf5a0e4fa81f02e91e8993",
+      "name": "m-crack",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-crypto": {
+      "files": 1,
+      "hash": "1f40d08395993f688d9e7599939d314bc6dcba9b7f1b870f33ca24f0143f5f33",
+      "name": "m-crypto",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-db": {
+      "files": 1,
+      "hash": "952421f359d002aa1cb949cc514ac4814ebcb9c8b25b3d8563037099a977210d",
+      "name": "m-db",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-defimp": {
+      "files": 1,
+      "hash": "4a667be3f8b6b1cddc2ce64ea2037545605cc36b13594065a0525a8b541e77a6",
+      "name": "m-defimp",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-delivery": {
+      "files": 1,
+      "hash": "5a4972b0acc177e5af9d0957c7d1e044c45505dce5505a62bdd97099816e7c76",
+      "name": "m-delivery",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-dev": {
+      "files": 1,
+      "hash": "324b182eca8d11de46576a1e2e4f366ff260fa5da883a0b992e1d47c37c354aa",
+      "name": "m-dev",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-doc": {
+      "files": 1,
+      "hash": "fcb861343bf5a4ffd5da234289844e1f4c6b6dd9269f5cb7e67a319447653c28",
+      "name": "m-doc",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-evasion": {
+      "files": 1,
+      "hash": "7b1ee228cafd0900e45da2c62907da28d9f85aba60f86ef3c834e5af563c6998",
+      "name": "m-evasion",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-exfil": {
+      "files": 1,
+      "hash": "383b33ed58fab263fb1fca94e2ea8bf8b680bcdf2fe116f7d9cbcbfbc1727ad3",
+      "name": "m-exfil",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-forensics": {
+      "files": 1,
+      "hash": "3984767b1160db079f73d3ed339da36839a273a54ba5398267b9bf1c5938d438",
+      "name": "m-forensics",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-game": {
+      "files": 1,
+      "hash": "af5c60931ed2524e7be9989adf18a8fb23fd4e382d805b4a9150db44c9116568",
+      "name": "m-game",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-impact": {
+      "files": 1,
+      "hash": "ef323104e2ea2de65bc00c41bf1fee097f18111c45ce44e0849b7f255ad6ea82",
+      "name": "m-impact",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-inject": {
+      "files": 1,
+      "hash": "2b41cfdd5aad993b9206793d088b395dd50d295d296330efe458bd437d804d28",
+      "name": "m-inject",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-intent": {
+      "files": 1,
+      "hash": "ea29e8d2fd08be023d59a60aa566e1995bada9e6633338b9b961884b2d5200d6",
+      "name": "m-intent",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-iot": {
+      "files": 1,
+      "hash": "0ebd37c26d0e607cf4f3fd794f4d2da87154f85e95e2c8de15de2c1b2252308e",
+      "name": "m-iot",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-jb": {
+      "files": 1,
+      "hash": "438e07d73710f0123c8000237e6752387ca19c93c9d4443434c785d8e4da4851",
+      "name": "m-jb",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-linux": {
+      "files": 1,
+      "hash": "5908f9496a21258b21a872bde13d1fe11fa8bf8693f66d529a3996fda265cac6",
+      "name": "m-linux",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-mobile": {
+      "files": 1,
+      "hash": "d82a8a9f60f88f201da1ad6d5695e2d9e0336a7dfdf9c72035590ff05d516966",
+      "name": "m-mobile",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-net": {
+      "files": 1,
+      "hash": "43aff8cdb0b9e1fbd0788d84c6de589439b1eb7ec4c65a08bdde70cd43629acf",
+      "name": "m-net",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-osint": {
+      "files": 1,
+      "hash": "8403d7e5e640c4a2051bdcd77360ceeab6accbca9024fbd54dbef587d8c77c35",
+      "name": "m-osint",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-pentest": {
+      "files": 1,
+      "hash": "acc53713d56b44433c643af058579cde1475559b6708df9584126f52654a4bdb",
+      "name": "m-pentest",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-persist": {
+      "files": 1,
+      "hash": "ecb99e7a495f624159910dcf56f10f13ba01fa9bd79d16fb0949ca5662f6d804",
+      "name": "m-persist",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-physical": {
+      "files": 1,
+      "hash": "f5c9e7d76806e7255a050dd6916a9c4ea848b9a2b02d3fd3d38c86e96f9679e6",
+      "name": "m-physical",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-protocol": {
+      "files": 1,
+      "hash": "d6cd1684646f273dcd17469faf31f55928e903a69e724d44992901e043955fd9",
+      "name": "m-protocol",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-reverse": {
+      "files": 1,
+      "hash": "be2183010fb7fdf58852f098f86cd52c1e35defec63ea8f4b1c202fafa8b0383",
+      "name": "m-reverse",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-social": {
+      "files": 1,
+      "hash": "7b1818efd0b43ef68e0296b1f6846ce2e130e5477942ec8526fc9f9c2b0aacf6",
+      "name": "m-social",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-vish": {
+      "files": 1,
+      "hash": "6be81d14d59642a05e5bda1e4f975de1b67fde587529e317643f785c8159c893",
+      "name": "m-vish",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-weapon": {
+      "files": 1,
+      "hash": "a5a49bd357cda759cf674347c5bc6affd02cc0343691c8751826f6dcb279a2e2",
+      "name": "m-weapon",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-web3": {
+      "files": 1,
+      "hash": "9dcf907f36292a600aa9c41cf0fb9d1656d1f2cfb1e577c7210a6ae7edcad42b",
+      "name": "m-web3",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "m-writing": {
+      "files": 1,
+      "hash": "04f0c2a81d3fe291f637cc5ed6c888b62a7c5e7e3a3dc2923a73ed482bfd7268",
+      "name": "m-writing",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "magpie-quota": {
+      "files": 1,
+      "hash": "d20a1ea757c8707d4682b61fff893979bcda5b2e9c475c56ccd33e40b3f79b01",
+      "name": "magpie-quota",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "monid": {
+      "files": 1,
+      "hash": "f13e02a33135e5303e826767a2ef51351bb395baa62e2c75cfd799d9de69ee1a",
+      "name": "monid",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwen-audio-tts": {
+      "files": 12,
+      "hash": "e293d57c223a3b2e175feee7ced28443876baf68b1903ef1200cdf6932bb68c0",
+      "name": "qianwen-audio-tts",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwen-find-skills": {
+      "files": 12,
+      "hash": "5a5518e51588ba8493184424d240217fca010dc0fe81a28db046108bd61d2e01",
+      "name": "qianwen-find-skills",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwen-image-generation": {
+      "files": 12,
+      "hash": "6359c38bfeca40ed646c6e29cfdcc8dfe628b219e048ee8649a8ee05ef2f4b4e",
+      "name": "qianwen-image-generation",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwen-model-selector": {
+      "files": 8,
+      "hash": "36ef2d68501c722b26d82ccb8202ca1de6931f3326f3993a88a6ff15422469f6",
+      "name": "qianwen-model-selector",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwen-ops-auth": {
+      "files": 4,
+      "hash": "bbf9ab7c892a28eac1d1eed7fc78297dac9a071d1fc844f87d07004a21e19f17",
+      "name": "qianwen-ops-auth",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwen-payment": {
+      "files": 8,
+      "hash": "9c11b4a6702db29143e5d3b92a9ebe4a91f657bb8aff87d75407d4e8e7e20e73",
+      "name": "qianwen-payment",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwen-text": {
+      "files": 10,
+      "hash": "dce6f7ad37d11ff4f8100e7976cbd66cab56658c2160f3dc71f6810ce85214d7",
+      "name": "qianwen-text",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwen-update-check": {
+      "files": 4,
+      "hash": "5af5f0d7a6d1cd80b9c56fabacf89f0da4249a68a6aa44608773a118049a790c",
+      "name": "qianwen-update-check",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwen-usage": {
+      "files": 1,
+      "hash": "bc8ec2b9259f0de3488b21f7d527f32c27afd5b64e86dc9b8f6a5923d2628289",
+      "name": "qianwen-usage",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwen-video-generation": {
+      "files": 17,
+      "hash": "c9047d0742150b8dc75a6f8dfde4da4ab3ed893d3c2ef9308ec746a81e96eb2f",
+      "name": "qianwen-video-generation",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwen-vision": {
+      "files": 14,
+      "hash": "909e6fd6e783360fcc60af4de766666177525797bc9bab0d8e30d6854b49fac3",
+      "name": "qianwen-vision",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwenai-deploy": {
+      "files": 36,
+      "hash": "d7f26682efe8cf9cd18092f605c87f9fa382af2b57195ddbb822cf90623c1f3e",
+      "name": "qianwenai-deploy",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwenai-observe": {
+      "files": 12,
+      "hash": "e732b7a0a69b83cda0f1aaabe7ee414a27042cea6c232f322e9dbc6ddfd97f44",
+      "name": "qianwenai-observe",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "qianwenai-operate": {
+      "files": 14,
+      "hash": "3770f6e2e0bd4f6b55c89a201de64045703086e84f958bd3a09a49982bfd8da8",
+      "name": "qianwenai-operate",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "quarkclouddrive": {
+      "files": 18,
+      "hash": "77191730680a9e414ee03b7bee9f8d5d5322eaf73fd62431673d3069e0fb7ac3",
+      "name": "quarkclouddrive",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "task-mode-advisor": {
+      "files": 1,
+      "hash": "ea1ae4efd4b3e643568f79cdb6a7e809c2a479ceee11b897db3a0ca86aea7c9b",
+      "name": "task-mode-advisor",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    },
+    "workbench-diy-module-pipeline": {
+      "files": 1,
+      "hash": "98d59ac1c1f276b4d990896ed6b86a59364364ea30491070b8eeb180c2a9f6d0",
+      "name": "workbench-diy-module-pipeline",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    }
+  },
+  "status": {
+    "lastError": null,
+    "lastResult": "ok",
+    "lastSyncAt": "2026-11-26T09:50:33.600Z",
+    "pendingActivation": []
+  },
+  "updatedAt": "2026-11-26T09:50:33.600Z"
 }

@@ -1,18 +1,28 @@
 {
-  "schemaVersion": 1,
+  "devices": [
+    {
+      "arch": "x64",
+      "dshVersion": "0.2.2-rc.5",
+      "id": "dev-af93a810ab525e80",
+      "lastCommit": "9c744fbcb0593cdda3f04c642fea13de5ffe6892",
+      "lastResult": "ok",
+      "lastSyncAt": "2026-11-26T09:50:33.600Z",
+      "name": "wanghuayu",
+      "platform": "win32",
+      "pluginVersion": "0.2.13",
+      "updatedAt": "2026-11-26T09:50:33.600Z"
+    }
+  ],
   "generator": {
     "name": "dsh-plugins-git-sync",
-    "version": "0.2.12"
+    "version": "0.3.2"
   },
-  "createdAt": "2026-11-11T03:57:59.269Z",
-  "updatedAt": "2026-11-11T03:57:59.269Z",
+  "migratedFrom": 1,
   "profiles": {
     "desktop": {
-      "pluginCount": 15,
-      "updatedAt": "2026-11-11T03:57:59.269Z"
+      "pluginCount": 71
     }
   },
-  "devices": [
-    "dev-af93a810ab525e80"
-  ]
+  "schemaVersion": 2,
+  "updatedAt": "2026-11-26T09:50:33.600Z"
 }

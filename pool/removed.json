@@ -1,0 +1,31 @@
+{
+  "removed": [
+    {
+      "at": "2026-11-26T09:50:33.600Z",
+      "by": "dev-af93a810ab525e80",
+      "id": "cc-safety-net"
+    },
+    {
+      "at": "2026-11-26T09:50:33.600Z",
+      "by": "dev-af93a810ab525e80",
+      "id": "dsh-plugin-scout"
+    },
+    {
+      "at": "2026-11-26T09:50:33.600Z",
+      "by": "dev-af93a810ab525e80",
+      "id": "dsh-plugin-whale-pet"
+    },
+    {
+      "at": "2026-11-26T09:50:33.600Z",
+      "by": "dev-af93a810ab525e80",
+      "id": "dsh-skill-center"
+    },
+    {
+      "at": "2026-11-26T09:50:33.600Z",
+      "by": "dev-af93a810ab525e80",
+      "id": "dsh-whale-widget"
+    }
+  ],
+  "schemaVersion": 2,
+  "updatedAt": "2026-11-26T09:50:33.600Z"
+}

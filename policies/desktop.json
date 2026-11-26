@@ -1,0 +1,28 @@
+{
+  "backupButton": {
+    "warnWhenMultiDevice": true
+  },
+  "deletion": {
+    "propagate": true
+  },
+  "minDshVersion": "0.2.2",
+  "profile": "desktop",
+  "schemaVersion": 2,
+  "scope": {
+    "default": "all"
+  },
+  "sync": {
+    "auto": {
+      "apply": "safe",
+      "enabled": false,
+      "onPluginChange": true,
+      "onStartup": true
+    },
+    "mode": "two-way"
+  },
+  "versions": {
+    "allowPrerelease": false,
+    "default": "track",
+    "downgrade": "confirm"
+  }
+}
