@@ -2,44 +2,29 @@
   "plugins": {
     "@99galaxy/dsh-plugin-market": {
       "builtIn": false,
-      "displayName": "@99galaxy/dsh-plugin-market",
       "enabled": true,
       "id": "@99galaxy/dsh-plugin-market",
       "installSpec": "@99galaxy/dsh-plugin-market@1.2.2",
       "name": "@99galaxy/dsh-plugin-market",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-plugin-market",
-          "moduleName": "@99galaxy/dsh-plugin-market",
-          "rowId": "dsh-plugin-market"
-        }
-      ],
+      "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.599Z",
+      "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.2.2"
     },
     "@agents-anywhere/dsh-bridge-next": {
       "builtIn": false,
-      "displayName": "Remote Control",
       "enabled": false,
       "id": "@agents-anywhere/dsh-bridge-next",
       "installSpec": "@agents-anywhere/dsh-bridge-next@2.1.0",
       "name": "@agents-anywhere/dsh-bridge-next",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "@agents-anywhere/dsh-bridge-next",
-          "rowId": "agents-anywhere-bridge-next"
-        }
-      ],
+      "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.599Z",
+      "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "2.1.0"
     },
@@ -53,7 +38,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.599Z",
+      "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.4.22"
     },
@@ -67,99 +52,61 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.599Z",
+      "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.4.22"
     },
     "@liustack/modsearch": {
       "builtIn": false,
-      "displayName": "@liustack/modsearch",
       "enabled": true,
       "id": "@liustack/modsearch",
       "installSpec": "@liustack/modsearch@5.10.17",
       "name": "@liustack/modsearch",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:modsearch",
-          "moduleName": "@liustack/modsearch",
-          "rowId": "modsearch"
-        }
-      ],
+      "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.599Z",
+      "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "5.10.17"
     },
     "@marsken/dsh-studio": {
       "builtIn": false,
-      "displayName": "Studio",
       "enabled": true,
       "id": "@marsken/dsh-studio",
       "installSpec": "@marsken/dsh-studio@0.12.2",
       "name": "@marsken/dsh-studio",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-studio",
-          "moduleName": "@marsken/dsh-studio",
-          "rowId": "dsh-studio"
-        }
-      ],
+      "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.599Z",
+      "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.12.2"
     },
     "@michengai/dsh-agency-agents": {
       "builtIn": false,
-      "displayName": "Agency Agents",
       "enabled": true,
       "id": "@michengai/dsh-agency-agents",
       "installSpec": "@michengai/dsh-agency-agents@1.3.2",
       "name": "@michengai/dsh-agency-agents",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:agency-agents-remote",
-          "moduleName": "@michengai/dsh-agency-agents/remote",
-          "rowId": "agency-agents-remote"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:agency-agents",
-          "moduleName": "@michengai/dsh-agency-agents",
-          "rowId": "agency-agents"
-        }
-      ],
+      "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.599Z",
+      "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.3.2"
     },
     "@michengai/dsh-archive-manager": {
       "builtIn": false,
-      "displayName": "Archive Manager",
       "enabled": true,
       "id": "@michengai/dsh-archive-manager",
       "installSpec": "@michengai/dsh-archive-manager@1.5.0",
       "name": "@michengai/dsh-archive-manager",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:ui-workspace-archive-manager",
-          "moduleName": "@michengai/dsh-archive-manager",
-          "rowId": "ui-workspace-archive-manager"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -167,21 +114,13 @@
     },
     "@michengai/dsh-automation": {
       "builtIn": false,
-      "displayName": "Automation",
       "enabled": true,
       "id": "@michengai/dsh-automation",
       "installSpec": "@michengai/dsh-automation@1.1.3",
       "name": "@michengai/dsh-automation",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-automation",
-          "moduleName": "@michengai/dsh-automation",
-          "rowId": "dsh-automation"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -189,21 +128,13 @@
     },
     "@michengai/dsh-btw": {
       "builtIn": false,
-      "displayName": "BTW",
       "enabled": true,
       "id": "@michengai/dsh-btw",
       "installSpec": "@michengai/dsh-btw@1.4.3",
       "name": "@michengai/dsh-btw",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:michengai-btw",
-          "moduleName": "@michengai/dsh-btw",
-          "rowId": "michengai-btw"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -211,21 +142,13 @@
     },
     "@michengai/dsh-code-review": {
       "builtIn": false,
-      "displayName": "Code Review",
       "enabled": true,
       "id": "@michengai/dsh-code-review",
       "installSpec": "@michengai/dsh-code-review@1.0.15",
       "name": "@michengai/dsh-code-review",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:michengai-code-review",
-          "moduleName": "@michengai/dsh-code-review",
-          "rowId": "michengai-code-review"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -233,21 +156,13 @@
     },
     "@michengai/dsh-codex-pet": {
       "builtIn": false,
-      "displayName": "Codex Pet",
       "enabled": true,
       "id": "@michengai/dsh-codex-pet",
       "installSpec": "@michengai/dsh-codex-pet@1.1.2",
       "name": "@michengai/dsh-codex-pet",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:michengai-codex-pet",
-          "moduleName": "@michengai/dsh-codex-pet",
-          "rowId": "michengai-codex-pet"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -255,57 +170,13 @@
     },
     "@michengai/dsh-codex-ui": {
       "builtIn": false,
-      "displayName": "Codex UI",
       "enabled": true,
       "id": "@michengai/dsh-codex-ui",
       "installSpec": "@michengai/dsh-codex-ui@2.4.7",
       "name": "@michengai/dsh-codex-ui",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:codex-ui-session-title",
-          "moduleName": "@michengai/dsh-codex-ui/session-title",
-          "rowId": "codex-ui-session-title"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:codex-ui-settings-skin",
-          "moduleName": "@michengai/dsh-codex-ui/settings-skin",
-          "rowId": "codex-ui-settings-skin"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:codex-ui-composer",
-          "moduleName": "@michengai/dsh-codex-ui/composer",
-          "rowId": "codex-ui-composer"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:codex-ui-sidebar",
-          "moduleName": "@michengai/dsh-codex-ui/sidebar",
-          "rowId": "codex-ui-sidebar"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:codex-ui-theme",
-          "moduleName": "@michengai/dsh-codex-ui/theme",
-          "rowId": "codex-ui-theme"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:codex-ui-desktop-menu",
-          "moduleName": "@michengai/dsh-codex-ui/desktop-menu",
-          "rowId": "codex-ui-desktop-menu"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:codex-ui",
-          "moduleName": "@michengai/dsh-codex-ui",
-          "rowId": "codex-ui"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -313,27 +184,13 @@
     },
     "@michengai/dsh-pua": {
       "builtIn": false,
-      "displayName": "PUA settings",
       "enabled": true,
       "id": "@michengai/dsh-pua",
       "installSpec": "@michengai/dsh-pua@1.0.14",
       "name": "@michengai/dsh-pua",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:michengai-pua-remote",
-          "moduleName": "@michengai/dsh-pua/remote",
-          "rowId": "michengai-pua-remote"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:michengai-pua",
-          "moduleName": "@michengai/dsh-pua",
-          "rowId": "michengai-pua"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -341,21 +198,13 @@
     },
     "@michengai/dsh-simplify": {
       "builtIn": false,
-      "displayName": "Simplify",
       "enabled": true,
       "id": "@michengai/dsh-simplify",
       "installSpec": "@michengai/dsh-simplify@1.0.13",
       "name": "@michengai/dsh-simplify",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:michengai-simplify",
-          "moduleName": "@michengai/dsh-simplify",
-          "rowId": "michengai-simplify"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -363,21 +212,13 @@
     },
     "@michengai/dsh-skills-manager": {
       "builtIn": false,
-      "displayName": "Skills Manager",
       "enabled": true,
       "id": "@michengai/dsh-skills-manager",
       "installSpec": "@michengai/dsh-skills-manager@1.5.5",
       "name": "@michengai/dsh-skills-manager",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:skills-manager",
-          "moduleName": "@michengai/dsh-skills-manager",
-          "rowId": "skills-manager"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -385,21 +226,13 @@
     },
     "@morehao/dsh-github-trending": {
       "builtIn": false,
-      "displayName": "GitHub Trending Digest",
       "enabled": true,
       "id": "@morehao/dsh-github-trending",
       "installSpec": "@morehao/dsh-github-trending@0.9.34",
       "name": "@morehao/dsh-github-trending",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:dsh-github-trending",
-          "moduleName": "@morehao/dsh-github-trending",
-          "rowId": "dsh-github-trending"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -407,21 +240,13 @@
     },
     "@nanmicoder/dsh-agent-teams": {
       "builtIn": false,
-      "displayName": "@nanmicoder/dsh-agent-teams",
       "enabled": true,
       "id": "@nanmicoder/dsh-agent-teams",
       "installSpec": "@nanmicoder/dsh-agent-teams@0.1.31",
       "name": "@nanmicoder/dsh-agent-teams",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:agent-teams",
-          "moduleName": "@nanmicoder/dsh-agent-teams",
-          "rowId": "agent-teams"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -429,21 +254,13 @@
     },
     "@noob-stupid/dsh-plugin-console": {
       "builtIn": false,
-      "displayName": "@noob-stupid/dsh-plugin-console",
       "enabled": true,
       "id": "@noob-stupid/dsh-plugin-console",
       "installSpec": "@noob-stupid/dsh-plugin-console@0.5.115",
       "name": "@noob-stupid/dsh-plugin-console",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:plugin-console",
-          "moduleName": "@noob-stupid/dsh-plugin-console",
-          "rowId": "plugin-console"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -451,21 +268,13 @@
     },
     "@vectorize-io/hindsight-coding-agents": {
       "builtIn": false,
-      "displayName": "@vectorize-io/hindsight-coding-agents",
       "enabled": true,
       "id": "@vectorize-io/hindsight-coding-agents",
       "installSpec": "@vectorize-io/hindsight-coding-agents@0.8.8",
       "name": "@vectorize-io/hindsight-coding-agents",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:hindsight",
-          "moduleName": "@vectorize-io/hindsight-coding-agents/dsh",
-          "rowId": "hindsight"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -473,20 +282,13 @@
     },
     "@xmanrui/dsh-im": {
       "builtIn": false,
-      "displayName": "IM bots (dsh-im)",
       "enabled": false,
       "id": "@xmanrui/dsh-im",
       "installSpec": "@xmanrui/dsh-im@5.10.0",
       "name": "@xmanrui/dsh-im",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "@xmanrui/dsh-im",
-          "rowId": "xmanrui-dsh-im"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -494,21 +296,13 @@
     },
     "@yunmiao/studymate": {
       "builtIn": false,
-      "displayName": "@yunmiao/studymate",
       "enabled": true,
       "id": "@yunmiao/studymate",
       "installSpec": "@yunmiao/studymate@2.0.4",
       "name": "@yunmiao/studymate",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:studymate",
-          "moduleName": "@yunmiao/studymate",
-          "rowId": "studymate"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -516,21 +310,13 @@
     },
     "@zhiqiangme/dsh-presets-zh": {
       "builtIn": false,
-      "displayName": "Chinese Agent Presets",
       "enabled": true,
       "id": "@zhiqiangme/dsh-presets-zh",
       "installSpec": "@zhiqiangme/dsh-presets-zh@26.11.24",
       "name": "@zhiqiangme/dsh-presets-zh",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-presets-zh",
-          "moduleName": "@zhiqiangme/dsh-presets-zh",
-          "rowId": "dsh-presets-zh"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -538,27 +324,13 @@
     },
     "billion-context": {
       "builtIn": false,
-      "displayName": "billion-context",
       "enabled": true,
       "id": "billion-context",
       "installSpec": "billion-context@0.1.216",
       "name": "billion-context",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:bili-native",
-          "moduleName": "billion-context",
-          "rowId": "bili-native"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:bili-compaction-gate",
-          "moduleName": "billion-context/dsh-compaction-gate",
-          "rowId": "bili-compaction-gate"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -567,43 +339,27 @@
     "cc-safety-net": {
       "builtIn": false,
       "deleted": true,
-      "displayName": "cc-safety-net",
       "enabled": false,
       "id": "cc-safety-net",
       "installSpec": null,
       "name": "cc-safety-net",
-      "origin": "npm",
+      "origin": "unknown",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:cc-safety-net",
-          "moduleName": "cc-safety-net",
-          "rowId": "cc-safety-net"
-        }
-      ],
+      "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
-      "updatedBy": "dev-af93a810ab525e80",
-      "version": "2.7.9"
+      "updatedAt": "2026-11-26T09:51:44.635Z",
+      "updatedBy": "",
+      "version": null
     },
     "deepseek-harness-intelligent-ui": {
       "builtIn": false,
-      "displayName": "Intelligent UI",
       "enabled": true,
       "id": "deepseek-harness-intelligent-ui",
       "installSpec": "deepseek-harness-intelligent-ui@0.2.17",
       "name": "deepseek-harness-intelligent-ui",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:intelligent-ui",
-          "moduleName": "deepseek-harness-intelligent-ui",
-          "rowId": "intelligent-ui"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -611,21 +367,13 @@
     },
     "ds-harness-remote": {
       "builtIn": false,
-      "displayName": "DS Harness Remote",
       "enabled": true,
       "id": "ds-harness-remote",
       "installSpec": "ds-harness-remote@0.6.8",
       "name": "ds-harness-remote",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:ds-harness-remote",
-          "moduleName": "ds-harness-remote",
-          "rowId": "ds-harness-remote"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -633,20 +381,13 @@
     },
     "dsh-agy-link": {
       "builtIn": false,
-      "displayName": "Antigravity Link",
       "enabled": false,
       "id": "dsh-agy-link",
       "installSpec": "dsh-agy-link@0.6.87",
       "name": "dsh-agy-link",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-agy-link",
-          "rowId": "agy-link"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -654,23 +395,15 @@
     },
     "dsh-anatomy": {
       "builtIn": false,
-      "displayName": "DSH Architecture",
       "enabled": true,
       "id": "dsh-anatomy",
       "installSpec": "dsh-anatomy@1.1.0",
       "name": "dsh-anatomy",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-anatomy",
-          "moduleName": "dsh-anatomy",
-          "rowId": "dsh-anatomy"
-        }
-      ],
+      "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-11T03:57:59.269Z",
+      "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.1.0"
     },
@@ -682,37 +415,21 @@
       "name": "dsh-anchored-standard",
       "origin": "git",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:anchored-standard-installer",
-          "moduleName": "dsh-anchored-standard",
-          "rowId": "anchored-standard-installer"
-        }
-      ],
-      "source": "github:Jungod1121/dsh-anchored-standard#560530f0e1af6dba3528ac8962f5e5e63951b1bb",
+      "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-11T03:57:59.269Z",
+      "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.2.1"
     },
     "dsh-better-sidebar": {
       "builtIn": false,
-      "displayName": "Better Sidebar",
       "enabled": true,
       "id": "dsh-better-sidebar",
       "installSpec": "dsh-better-sidebar@0.33.0",
       "name": "dsh-better-sidebar",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:better-sidebar",
-          "moduleName": "dsh-better-sidebar",
-          "rowId": "better-sidebar"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -720,21 +437,13 @@
     },
     "dsh-bili-scroll": {
       "builtIn": false,
-      "displayName": "dsh-bili-scroll",
       "enabled": true,
       "id": "dsh-bili-scroll",
       "installSpec": "dsh-bili-scroll@2.5.3",
       "name": "dsh-bili-scroll",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:bili-scroll",
-          "moduleName": "dsh-bili-scroll",
-          "rowId": "bili-scroll"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -742,21 +451,13 @@
     },
     "dsh-blender-plugin": {
       "builtIn": false,
-      "displayName": "dsh-blender-plugin",
       "enabled": true,
       "id": "dsh-blender-plugin",
       "installSpec": "dsh-blender-plugin@3.0.6",
       "name": "dsh-blender-plugin",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:dsh-blender-plugin",
-          "moduleName": "dsh-blender-plugin",
-          "rowId": "dsh-blender-plugin"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -764,21 +465,13 @@
     },
     "dsh-claude-style": {
       "builtIn": false,
-      "displayName": "Claude Code Style",
       "enabled": true,
       "id": "dsh-claude-style",
       "installSpec": "dsh-claude-style@0.22.3",
       "name": "dsh-claude-style",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:ui-skin-claude-style",
-          "moduleName": "dsh-claude-style",
-          "rowId": "ui-skin-claude-style"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -786,21 +479,13 @@
     },
     "dsh-codex-effort-slider": {
       "builtIn": false,
-      "displayName": "dsh-codex-effort-slider",
       "enabled": true,
       "id": "dsh-codex-effort-slider",
       "installSpec": "dsh-codex-effort-slider@1.1.9",
       "name": "dsh-codex-effort-slider",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:codex-effort-slider",
-          "moduleName": "dsh-codex-effort-slider",
-          "rowId": "codex-effort-slider"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -808,20 +493,13 @@
     },
     "dsh-codex-subscription": {
       "builtIn": false,
-      "displayName": "Codex Subscription",
       "enabled": false,
       "id": "dsh-codex-subscription",
       "installSpec": "dsh-codex-subscription@3.2.30",
       "name": "dsh-codex-subscription",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-codex-subscription",
-          "rowId": "codex-subscription"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -829,21 +507,13 @@
     },
     "dsh-computer-use-win": {
       "builtIn": false,
-      "displayName": "dsh-computer-use-win",
       "enabled": true,
       "id": "dsh-computer-use-win",
       "installSpec": "dsh-computer-use-win@0.6.4",
       "name": "dsh-computer-use-win",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:mcp-dsh-computer-use-win",
-          "moduleName": "dsh-computer-use-win",
-          "rowId": "mcp-dsh-computer-use-win"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -851,21 +521,13 @@
     },
     "dsh-connect-workbuddy": {
       "builtIn": false,
-      "displayName": "dsh-connect-workbuddy",
       "enabled": true,
       "id": "dsh-connect-workbuddy",
       "installSpec": "dsh-connect-workbuddy@5.31.8",
       "name": "dsh-connect-workbuddy",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-connect-workbuddy",
-          "moduleName": "dsh-connect-workbuddy",
-          "rowId": "dsh-connect-workbuddy"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -873,21 +535,13 @@
     },
     "dsh-console-hm": {
       "builtIn": false,
-      "displayName": "dsh-console-hm",
       "enabled": true,
       "id": "dsh-console-hm",
       "installSpec": "dsh-console-hm@0.6.3",
       "name": "dsh-console-hm",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-console",
-          "moduleName": "dsh-console-hm",
-          "rowId": "dsh-console"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -895,57 +549,13 @@
     },
     "dsh-design-studio": {
       "builtIn": false,
-      "displayName": "Design Studio",
       "enabled": true,
       "id": "dsh-design-studio",
       "installSpec": "dsh-design-studio@1.3.0",
       "name": "dsh-design-studio",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-design-studio",
-          "moduleName": "dsh-design-studio",
-          "rowId": "dsh-design-studio"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:dsh-design-studio-auto",
-          "moduleName": "dsh-design-studio/auto",
-          "rowId": "dsh-design-studio-auto"
-        },
-        {
-          "enabled": false,
-          "entryId": "include:dsh-design-studio-offline",
-          "moduleName": "dsh-design-studio/offline",
-          "rowId": "dsh-design-studio-offline"
-        },
-        {
-          "enabled": false,
-          "entryId": "include:dsh-design-studio-annotations",
-          "moduleName": "dsh-design-studio/annotations",
-          "rowId": "dsh-design-studio-annotations"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:dsh-design-studio-tool",
-          "moduleName": "dsh-design-studio/tool",
-          "rowId": "dsh-design-studio-tool"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:dsh-design-studio-skill",
-          "moduleName": "dsh-design-studio/skill",
-          "rowId": "dsh-design-studio-skill"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:preset-design",
-          "moduleName": "dsh-design-studio/preset",
-          "rowId": "preset-design"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -953,21 +563,13 @@
     },
     "dsh-douyin-browser-local": {
       "builtIn": false,
-      "displayName": "dsh-douyin-browser-local",
       "enabled": true,
       "id": "dsh-douyin-browser-local",
       "installSpec": "dsh-douyin-browser-local@1.4.7",
       "name": "dsh-douyin-browser-local",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:douyin-browser",
-          "moduleName": "dsh-douyin-browser-local",
-          "rowId": "douyin-browser"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -975,21 +577,13 @@
     },
     "dsh-ego-browser": {
       "builtIn": false,
-      "displayName": "dsh-ego-browser",
       "enabled": true,
       "id": "dsh-ego-browser",
       "installSpec": "dsh-ego-browser@0.14.1",
       "name": "dsh-ego-browser",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:ego-browser",
-          "moduleName": "dsh-ego-browser",
-          "rowId": "ego-browser"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -997,21 +591,13 @@
     },
     "dsh-ffmpeg": {
       "builtIn": false,
-      "displayName": "FFmpeg",
       "enabled": true,
       "id": "dsh-ffmpeg",
       "installSpec": "dsh-ffmpeg@0.7.21",
       "name": "dsh-ffmpeg",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:ffmpeg",
-          "moduleName": "dsh-ffmpeg",
-          "rowId": "ffmpeg"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1019,51 +605,13 @@
     },
     "dsh-flash-presets": {
       "builtIn": false,
-      "displayName": "dsh-flash-presets",
       "enabled": true,
       "id": "dsh-flash-presets",
       "installSpec": "dsh-flash-presets@0.3.2",
       "name": "dsh-flash-presets",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:preset-flash-lean-ptc-v3",
-          "moduleName": "@deepseek-ai/dsh-agent-preset",
-          "rowId": "preset-flash-lean-ptc-v3"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:preset-flash-lean-ptc-v3-balance",
-          "moduleName": "@deepseek-ai/dsh-agent-preset",
-          "rowId": "preset-flash-lean-ptc-v3-balance"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:flash-presets-core",
-          "moduleName": "dsh-flash-presets/core",
-          "rowId": "flash-presets-core"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:plan-mode-ui",
-          "moduleName": "dsh-flash-presets",
-          "rowId": "plan-mode-ui"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:flash-presets-alias",
-          "moduleName": "dsh-flash-presets/alias",
-          "rowId": "flash-presets-alias"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:delivery-gate",
-          "moduleName": "dsh-flash-presets/delivery-gate",
-          "rowId": "delivery-gate"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1071,21 +619,13 @@
     },
     "dsh-free-search": {
       "builtIn": false,
-      "displayName": "dsh-free-search",
       "enabled": true,
       "id": "dsh-free-search",
       "installSpec": "dsh-free-search@0.9.88",
       "name": "dsh-free-search",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:web-search-free",
-          "moduleName": "dsh-free-search",
-          "rowId": "web-search-free"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1093,21 +633,13 @@
     },
     "dsh-image-gen": {
       "builtIn": false,
-      "displayName": "dsh-image-gen",
       "enabled": true,
       "id": "dsh-image-gen",
       "installSpec": "dsh-image-gen@0.12.3",
       "name": "dsh-image-gen",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:image-gen",
-          "moduleName": "dsh-image-gen",
-          "rowId": "image-gen"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1115,21 +647,13 @@
     },
     "dsh-kbar": {
       "builtIn": false,
-      "displayName": "KBar command palette",
       "enabled": true,
       "id": "dsh-kbar",
       "installSpec": "dsh-kbar@0.7.1",
       "name": "dsh-kbar",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:kbar",
-          "moduleName": "dsh-kbar",
-          "rowId": "kbar"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1137,21 +661,13 @@
     },
     "dsh-mcp-manager-plus": {
       "builtIn": false,
-      "displayName": "MCP Manager",
       "enabled": true,
       "id": "dsh-mcp-manager-plus",
       "installSpec": "dsh-mcp-manager-plus@0.5.2",
       "name": "dsh-mcp-manager-plus",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:mcp-manager-plus",
-          "moduleName": "dsh-mcp-manager-plus",
-          "rowId": "mcp-manager-plus"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1159,21 +675,13 @@
     },
     "dsh-media-desk": {
       "builtIn": false,
-      "displayName": "dsh-media-desk",
       "enabled": true,
       "id": "dsh-media-desk",
       "installSpec": "dsh-media-desk@2.7.2",
       "name": "dsh-media-desk",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:media-desk",
-          "moduleName": "dsh-media-desk",
-          "rowId": "media-desk"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1181,75 +689,13 @@
     },
     "dsh-mnemon": {
       "builtIn": false,
-      "displayName": "dsh-mnemon",
       "enabled": true,
       "id": "dsh-mnemon",
       "installSpec": "dsh-mnemon@0.5.55",
       "name": "dsh-mnemon",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:mnemon",
-          "moduleName": "dsh-mnemon",
-          "rowId": "mnemon"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:mnemon-source-runtime",
-          "moduleName": "dsh-mnemon-source-runtime",
-          "rowId": "mnemon-source-runtime"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:mnemon-source-documents",
-          "moduleName": "dsh-mnemon-source-documents",
-          "rowId": "mnemon-source-documents"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:mnemon-source-memory-spaces",
-          "moduleName": "dsh-mnemon-source-memory-spaces",
-          "rowId": "mnemon-source-memory-spaces"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:mnemon-source-skills",
-          "moduleName": "dsh-mnemon-source-skills",
-          "rowId": "mnemon-source-skills"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:mnemon-strategy-default-three-tier",
-          "moduleName": "dsh-mnemon-strategy-default-three-tier",
-          "rowId": "mnemon-strategy-default-three-tier"
-        },
-        {
-          "enabled": false,
-          "entryId": "include:mnemon-strategy-general",
-          "moduleName": "dsh-mnemon-strategy-general",
-          "rowId": "mnemon-strategy-general"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:mnemon-strategy-auto-capture",
-          "moduleName": "dsh-mnemon-strategy-auto-capture",
-          "rowId": "mnemon-strategy-auto-capture"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:mnemon-strategy-light-context",
-          "moduleName": "dsh-mnemon-strategy-light-context",
-          "rowId": "mnemon-strategy-light-context"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:mnemon-strategy-scoped",
-          "moduleName": "dsh-mnemon-strategy-scoped",
-          "rowId": "mnemon-strategy-scoped"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1257,21 +703,13 @@
     },
     "dsh-mobile-plugin": {
       "builtIn": false,
-      "displayName": "Mobile plugin",
       "enabled": true,
       "id": "dsh-mobile-plugin",
       "installSpec": "dsh-mobile-plugin@0.5.120",
       "name": "dsh-mobile-plugin",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:dsh-mobile",
-          "moduleName": "dsh-mobile-plugin",
-          "rowId": "dsh-mobile"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1279,21 +717,13 @@
     },
     "dsh-nextsteps": {
       "builtIn": false,
-      "displayName": "Nextsteps",
       "enabled": true,
       "id": "dsh-nextsteps",
       "installSpec": "dsh-nextsteps@1.12.0",
       "name": "dsh-nextsteps",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-nextsteps",
-          "moduleName": "dsh-nextsteps",
-          "rowId": "dsh-nextsteps"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1301,21 +731,13 @@
     },
     "dsh-ops": {
       "builtIn": false,
-      "displayName": "dsh-ops",
       "enabled": true,
       "id": "dsh-ops",
       "installSpec": "dsh-ops@0.5.5",
       "name": "dsh-ops",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:dsh-ops",
-          "moduleName": "dsh-ops",
-          "rowId": "dsh-ops"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1323,33 +745,13 @@
     },
     "dsh-outsourcing-expert": {
       "builtIn": false,
-      "displayName": "dsh-outsourcing-expert",
       "enabled": true,
       "id": "dsh-outsourcing-expert",
       "installSpec": "dsh-outsourcing-expert@1.2.5",
       "name": "dsh-outsourcing-expert",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:preset-outsourcing-expert",
-          "moduleName": "@deepseek-ai/dsh-agent-preset",
-          "rowId": "preset-outsourcing-expert"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:preset-outsourcing-expert-reverse",
-          "moduleName": "@deepseek-ai/dsh-agent-preset",
-          "rowId": "preset-outsourcing-expert-reverse"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:preset-outsourcing-expert-leader",
-          "moduleName": "@deepseek-ai/dsh-agent-preset",
-          "rowId": "preset-outsourcing-expert-leader"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1357,20 +759,13 @@
     },
     "dsh-perm-gate": {
       "builtIn": false,
-      "displayName": "Permission Gate",
       "enabled": false,
       "id": "dsh-perm-gate",
       "installSpec": "dsh-perm-gate@5.7.0",
       "name": "dsh-perm-gate",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-perm-gate",
-          "rowId": "dsh-perm-gate"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1378,20 +773,13 @@
     },
     "dsh-pet": {
       "builtIn": false,
-      "displayName": "dsh-pet",
       "enabled": false,
       "id": "dsh-pet",
       "installSpec": "dsh-pet@0.4.9",
       "name": "dsh-pet",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-pet",
-          "rowId": "dsh-pet"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1399,21 +787,13 @@
     },
     "dsh-plugin": {
       "builtIn": false,
-      "displayName": "dsh-plugin",
       "enabled": true,
       "id": "dsh-plugin",
       "installSpec": "dsh-plugin@2.4.4",
       "name": "dsh-plugin",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-plugin",
-          "moduleName": "dsh-plugin",
-          "rowId": "dsh-plugin"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1421,21 +801,13 @@
     },
     "dsh-plugin-health": {
       "builtIn": false,
-      "displayName": "dsh-plugin-health",
       "enabled": true,
       "id": "dsh-plugin-health",
       "installSpec": "dsh-plugin-health@3.3.0",
       "name": "dsh-plugin-health",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:plugin-health",
-          "moduleName": "dsh-plugin-health",
-          "rowId": "plugin-health"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1444,81 +816,27 @@
     "dsh-plugin-scout": {
       "builtIn": false,
       "deleted": true,
-      "displayName": "Plugin Scout",
       "enabled": false,
       "id": "dsh-plugin-scout",
       "installSpec": null,
       "name": "dsh-plugin-scout",
-      "origin": "npm",
+      "origin": "unknown",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-scout",
-          "rowId": "dsh-plugin-scout"
-        }
-      ],
+      "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
-      "updatedBy": "dev-af93a810ab525e80",
-      "version": "0.1.11"
+      "updatedAt": "2026-11-26T09:51:44.635Z",
+      "updatedBy": "",
+      "version": null
     },
     "dsh-plugin-wallpaper-engine": {
       "builtIn": false,
-      "displayName": "Wallpaper Engine",
       "enabled": false,
       "id": "dsh-plugin-wallpaper-engine",
       "installSpec": "dsh-plugin-wallpaper-engine@1.4.3",
       "name": "dsh-plugin-wallpaper-engine",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-wallpaper-engine",
-          "rowId": "wallpaper-engine"
-        },
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-wallpaper-engine-about-notice",
-          "rowId": "wallpaper-engine-about-notice"
-        },
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-wallpaper-engine-mascot-avatar",
-          "rowId": "wallpaper-engine-mascot-avatar"
-        },
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-wallpaper-engine-media-bridge",
-          "rowId": "wallpaper-engine-media-bridge"
-        },
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-wallpaper-engine-pet-link",
-          "rowId": "wallpaper-engine-pet-link"
-        },
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-wallpaper-engine-fx",
-          "rowId": "wallpaper-engine-fx"
-        },
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-wallpaper-engine-parallax",
-          "rowId": "wallpaper-engine-parallax"
-        },
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-wallpaper-engine-fonts",
-          "rowId": "wallpaper-engine-fonts"
-        },
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-wallpaper-engine-glass",
-          "rowId": "wallpaper-engine-glass"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1527,42 +845,27 @@
     "dsh-plugin-whale-pet": {
       "builtIn": false,
       "deleted": true,
-      "displayName": "Whale Companion",
       "enabled": false,
       "id": "dsh-plugin-whale-pet",
       "installSpec": null,
       "name": "dsh-plugin-whale-pet",
-      "origin": "npm",
+      "origin": "unknown",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-plugin-whale-pet",
-          "rowId": "whale-pet"
-        }
-      ],
+      "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
-      "updatedBy": "dev-af93a810ab525e80",
-      "version": "0.2.9"
+      "updatedAt": "2026-11-26T09:51:44.635Z",
+      "updatedBy": "",
+      "version": null
     },
     "dsh-pocket": {
       "builtIn": false,
-      "displayName": "dsh-pocket",
       "enabled": true,
       "id": "dsh-pocket",
       "installSpec": "dsh-pocket@2.13.2",
       "name": "dsh-pocket",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:dsh-pocket",
-          "moduleName": "dsh-pocket",
-          "rowId": "dsh-pocket"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1570,21 +873,13 @@
     },
     "dsh-power-xc": {
       "builtIn": false,
-      "displayName": "dsh-power-xc",
       "enabled": true,
       "id": "dsh-power-xc",
       "installSpec": "dsh-power-xc@0.1.10",
       "name": "dsh-power-xc",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-power-xc",
-          "moduleName": "dsh-power-xc",
-          "rowId": "dsh-power-xc"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1592,21 +887,13 @@
     },
     "dsh-ppt": {
       "builtIn": false,
-      "displayName": "dsh-ppt",
       "enabled": true,
       "id": "dsh-ppt",
       "installSpec": "dsh-ppt@1.0.4",
       "name": "dsh-ppt",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:dsh-ppt",
-          "moduleName": "dsh-ppt",
-          "rowId": "dsh-ppt"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1614,27 +901,13 @@
     },
     "dsh-preset-deep": {
       "builtIn": false,
-      "displayName": "Liangsheng Mode",
       "enabled": true,
       "id": "dsh-preset-deep",
       "installSpec": "dsh-preset-deep@0.1.5",
       "name": "dsh-preset-deep",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:preset-deep",
-          "moduleName": "@deepseek-ai/dsh-agent-preset",
-          "rowId": "preset-deep"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:ls-icon",
-          "moduleName": "dsh-preset-deep",
-          "rowId": "ls-icon"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1642,21 +915,13 @@
     },
     "dsh-remote-plugin": {
       "builtIn": false,
-      "displayName": "dsh-remote-plugin",
       "enabled": true,
       "id": "dsh-remote-plugin",
       "installSpec": "dsh-remote-plugin@0.9.0",
       "name": "dsh-remote-plugin",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:dsh-remote-plugin",
-          "moduleName": "dsh-remote-plugin",
-          "rowId": "dsh-remote-plugin"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1664,21 +929,13 @@
     },
     "dsh-remotion": {
       "builtIn": false,
-      "displayName": "dsh-remotion",
       "enabled": true,
       "id": "dsh-remotion",
       "installSpec": "dsh-remotion@0.13.4",
       "name": "dsh-remotion",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:remotion-skills",
-          "moduleName": "dsh-remotion",
-          "rowId": "remotion-skills"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1686,21 +943,13 @@
     },
     "dsh-rewind-plugin": {
       "builtIn": false,
-      "displayName": "Conversation rewind",
       "enabled": true,
       "id": "dsh-rewind-plugin",
       "installSpec": "dsh-rewind-plugin@0.24.1",
       "name": "dsh-rewind-plugin",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-rewind-plugin",
-          "moduleName": "dsh-rewind-plugin",
-          "rowId": "dsh-rewind-plugin"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1708,21 +957,13 @@
     },
     "dsh-sidebar-more": {
       "builtIn": false,
-      "displayName": "dsh-sidebar-more",
       "enabled": true,
       "id": "dsh-sidebar-more",
       "installSpec": "dsh-sidebar-more@0.2.2",
       "name": "dsh-sidebar-more",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:sidebar-more",
-          "moduleName": "dsh-sidebar-more",
-          "rowId": "sidebar-more"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1731,43 +972,27 @@
     "dsh-skill-center": {
       "builtIn": false,
       "deleted": true,
-      "displayName": "Skill Center",
       "enabled": false,
       "id": "dsh-skill-center",
       "installSpec": null,
       "name": "dsh-skill-center",
-      "origin": "npm",
+      "origin": "unknown",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:skill-center",
-          "moduleName": "dsh-skill-center",
-          "rowId": "skill-center"
-        }
-      ],
+      "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
-      "updatedBy": "dev-af93a810ab525e80",
-      "version": "0.4.1"
+      "updatedAt": "2026-11-26T09:51:44.635Z",
+      "updatedBy": "",
+      "version": null
     },
     "dsh-soul-md": {
       "builtIn": false,
-      "displayName": "Persona and memory",
       "enabled": true,
       "id": "dsh-soul-md",
       "installSpec": "dsh-soul-md@0.12.5",
       "name": "dsh-soul-md",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:soul-md",
-          "moduleName": "dsh-soul-md",
-          "rowId": "soul-md"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1775,21 +1000,13 @@
     },
     "dsh-univer-office": {
       "builtIn": false,
-      "displayName": "dsh-univer-office",
       "enabled": true,
       "id": "dsh-univer-office",
       "installSpec": "dsh-univer-office@0.6.1",
       "name": "dsh-univer-office",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:univer",
-          "moduleName": "dsh-univer-office",
-          "rowId": "univer"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1797,21 +1014,13 @@
     },
     "dsh-unlag": {
       "builtIn": false,
-      "displayName": "Unlag",
       "enabled": true,
       "id": "dsh-unlag",
       "installSpec": "dsh-unlag@1.17.11",
       "name": "dsh-unlag",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-unlag",
-          "moduleName": "dsh-unlag",
-          "rowId": "dsh-unlag"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1819,21 +1028,13 @@
     },
     "dsh-vision-router": {
       "builtIn": false,
-      "displayName": "dsh-vision-router",
       "enabled": true,
       "id": "dsh-vision-router",
       "installSpec": "dsh-vision-router@3.4.0",
       "name": "dsh-vision-router",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": false,
-          "entryId": "include:vision-router",
-          "moduleName": "dsh-vision-router",
-          "rowId": "vision-router"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1842,43 +1043,27 @@
     "dsh-whale-widget": {
       "builtIn": false,
       "deleted": true,
-      "displayName": "dsh-whale-widget",
       "enabled": false,
       "id": "dsh-whale-widget",
       "installSpec": null,
       "name": "dsh-whale-widget",
-      "origin": "npm",
+      "origin": "unknown",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-whale-widget",
-          "moduleName": "dsh-whale-widget",
-          "rowId": "dsh-whale-widget"
-        }
-      ],
+      "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
-      "updatedBy": "dev-af93a810ab525e80",
-      "version": "0.4.2"
+      "updatedAt": "2026-11-26T09:51:44.635Z",
+      "updatedBy": "",
+      "version": null
     },
     "dshmarket": {
       "builtIn": false,
-      "displayName": "dshmarket",
       "enabled": true,
       "id": "dshmarket",
       "installSpec": "dshmarket@1.84.1",
       "name": "dshmarket",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-market",
-          "moduleName": "dshmarket",
-          "rowId": "dsh-market"
-        }
-      ],
+      "rows": [],
       "syncable": true,
       "updatedAt": "2026-11-26T09:50:33.600Z",
       "updatedBy": "dev-af93a810ab525e80",
@@ -1887,5 +1072,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T09:50:33.600Z"
+  "updatedAt": "2026-11-26T09:51:49.285Z"
 }
