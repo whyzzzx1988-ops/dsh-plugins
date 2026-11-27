@@ -4,13 +4,13 @@
       "arch": "x64",
       "dshVersion": "0.2.2-rc.5",
       "id": "dev-af93a810ab525e80",
-      "lastCommit": "3ec8a2e0cc9a9b7caaa85f9be39b7bf99e476ef6",
-      "lastResult": "no-changes",
-      "lastSyncAt": "2026-11-26T09:51:49.285Z",
+      "lastCommit": "9c0533895d98c88270fc25afffebc592ad0bfe78",
+      "lastResult": "ok",
+      "lastSyncAt": "2026-11-27T05:12:26.456Z",
       "name": "wanghuayu",
       "platform": "win32",
-      "pluginVersion": "0.2.13",
-      "updatedAt": "2026-11-26T09:51:49.285Z"
+      "pluginVersion": "0.3.2",
+      "updatedAt": "2026-11-27T05:12:26.456Z"
     }
   ],
   "generator": {
@@ -20,9 +20,9 @@
   "migratedFrom": 1,
   "profiles": {
     "desktop": {
-      "pluginCount": 71
+      "pluginCount": 72
     }
   },
   "schemaVersion": 2,
-  "updatedAt": "2026-11-26T09:51:49.285Z"
+  "updatedAt": "2026-11-27T05:12:26.456Z"
 }

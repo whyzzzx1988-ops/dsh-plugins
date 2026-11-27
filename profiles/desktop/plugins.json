@@ -10,7 +10,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.2.2"
     },
@@ -24,9 +24,31 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "2.1.0"
+    },
+    "@anysearch/anysearch-dsh": {
+      "builtIn": false,
+      "displayName": "@anysearch/anysearch-dsh",
+      "enabled": true,
+      "id": "@anysearch/anysearch-dsh",
+      "installSpec": "@anysearch/anysearch-dsh@0.1.8",
+      "name": "@anysearch/anysearch-dsh",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:web-search-anysearch",
+          "moduleName": "@anysearch/anysearch-dsh",
+          "rowId": "web-search-anysearch"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-27T05:12:26.455Z",
+      "updatedBy": "dev-af93a810ab525e80",
+      "version": "0.1.8"
     },
     "@linxin666/dsh-client-ui-skill-explorer": {
       "builtIn": false,
@@ -38,7 +60,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.4.22"
     },
@@ -52,7 +74,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.4.22"
     },
@@ -66,7 +88,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "5.10.17"
     },
@@ -80,7 +102,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.12.2"
     },
@@ -94,7 +116,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.3.2"
     },
@@ -108,7 +130,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.5.0"
     },
@@ -122,7 +144,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.1.3"
     },
@@ -136,7 +158,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.4.3"
     },
@@ -150,7 +172,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.0.15"
     },
@@ -164,7 +186,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.1.2"
     },
@@ -178,7 +200,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "2.4.7"
     },
@@ -192,7 +214,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.0.14"
     },
@@ -206,7 +228,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.0.13"
     },
@@ -220,7 +242,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.5.5"
     },
@@ -234,7 +256,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.9.34"
     },
@@ -248,7 +270,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.1.31"
     },
@@ -262,7 +284,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.5.115"
     },
@@ -276,7 +298,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.8.8"
     },
@@ -290,7 +312,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "5.10.0"
     },
@@ -304,7 +326,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "2.0.4"
     },
@@ -318,7 +340,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "26.11.24"
     },
@@ -332,7 +354,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.1.216"
     },
@@ -347,7 +369,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:51:44.635Z",
+      "updatedAt": "2026-11-27T05:12:19.564Z",
       "updatedBy": "",
       "version": null
     },
@@ -361,7 +383,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.2.17"
     },
@@ -375,7 +397,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.6.8"
     },
@@ -389,7 +411,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.6.87"
     },
@@ -403,7 +425,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.1.0"
     },
@@ -417,7 +439,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.2.1"
     },
@@ -431,7 +453,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.33.0"
     },
@@ -445,7 +467,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "2.5.3"
     },
@@ -459,7 +481,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "3.0.6"
     },
@@ -473,7 +495,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.22.3"
     },
@@ -487,7 +509,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.1.9"
     },
@@ -501,7 +523,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "3.2.30"
     },
@@ -515,7 +537,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.6.4"
     },
@@ -529,7 +551,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "5.31.8"
     },
@@ -543,7 +565,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.6.3"
     },
@@ -557,7 +579,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.3.0"
     },
@@ -571,7 +593,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.4.7"
     },
@@ -585,7 +607,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.14.1"
     },
@@ -599,7 +621,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.7.21"
     },
@@ -613,7 +635,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.3.2"
     },
@@ -627,7 +649,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.9.88"
     },
@@ -641,7 +663,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.12.3"
     },
@@ -655,7 +677,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.7.1"
     },
@@ -669,7 +691,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.5.2"
     },
@@ -683,7 +705,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "2.7.2"
     },
@@ -697,7 +719,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.5.55"
     },
@@ -711,7 +733,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.5.120"
     },
@@ -725,7 +747,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.12.0"
     },
@@ -739,7 +761,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.5.5"
     },
@@ -753,7 +775,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.2.5"
     },
@@ -767,7 +789,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "5.7.0"
     },
@@ -781,7 +803,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.4.9"
     },
@@ -795,7 +817,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "2.4.4"
     },
@@ -809,7 +831,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "3.3.0"
     },
@@ -824,7 +846,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:51:44.635Z",
+      "updatedAt": "2026-11-27T05:12:19.564Z",
       "updatedBy": "",
       "version": null
     },
@@ -838,7 +860,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.4.3"
     },
@@ -853,7 +875,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:51:44.635Z",
+      "updatedAt": "2026-11-27T05:12:19.564Z",
       "updatedBy": "",
       "version": null
     },
@@ -867,7 +889,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "2.13.2"
     },
@@ -881,7 +903,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.1.10"
     },
@@ -895,7 +917,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.0.4"
     },
@@ -909,7 +931,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.1.5"
     },
@@ -923,7 +945,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.9.0"
     },
@@ -937,7 +959,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.13.4"
     },
@@ -951,7 +973,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.24.1"
     },
@@ -965,7 +987,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.2.2"
     },
@@ -980,7 +1002,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:51:44.635Z",
+      "updatedAt": "2026-11-27T05:12:19.564Z",
       "updatedBy": "",
       "version": null
     },
@@ -994,7 +1016,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.12.5"
     },
@@ -1008,7 +1030,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "0.6.1"
     },
@@ -1022,7 +1044,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.17.11"
     },
@@ -1036,7 +1058,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "3.4.0"
     },
@@ -1051,7 +1073,7 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:51:44.635Z",
+      "updatedAt": "2026-11-27T05:12:19.564Z",
       "updatedBy": "",
       "version": null
     },
@@ -1065,12 +1087,12 @@
       "pathOnly": false,
       "rows": [],
       "syncable": true,
-      "updatedAt": "2026-11-26T09:50:33.600Z",
+      "updatedAt": "2026-11-26T09:51:49.285Z",
       "updatedBy": "dev-af93a810ab525e80",
       "version": "1.84.1"
     }
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T09:51:49.285Z"
+  "updatedAt": "2026-11-27T05:12:26.456Z"
 }
